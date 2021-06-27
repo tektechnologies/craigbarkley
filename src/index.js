@@ -49,6 +49,20 @@ ReactDOM.render(
         exact
         render={props => <Register {...props} />}
       />
+
+      <Route path='/linkedin' component={() => { 
+        window.location.href = 'https://www.linkedin.com/in/craig-barkley-25017b65/'; 
+        return null;
+   }}/>
+      <Route path='/github' component={() => { 
+        window.location.href = 'https://github.com/tektechnologies'; 
+        return null;
+    }}/>
+    <Route path='/wookone' component={() => { 
+      window.location.href = 'https://www.wookone.com'; 
+      return null;
+  }}/>
+
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,

@@ -41,6 +41,7 @@ import {
 import reactWhite from "assets/img/brand/argon-react-white.png";
 import argonReact from "assets/img/brand/argon-react.png";
 
+
 class DemoNavbar extends React.Component {
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
@@ -112,7 +113,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Components</span>
+                      <span className="nav-link-inner--text">Web Site Projects</span>
                     </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
@@ -126,11 +127,10 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
-                              Getting started
+                              Online Stores
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Learn how to use Argon compiling Scss, change
-                              brand colors and more.
+                              Learn more about the businesses I have helped create an onine presence.
                             </p>
                           </Media>
                         </Media>
@@ -144,11 +144,10 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
-                              Foundation
+                              Small Business Sites
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Learn more about colors, typography, icons and the
-                              grid system we used for Argon.
+                              Take a look at the sole proprietors and their static sites that help them reach their customers and market their businesses.
                             </p>
                           </Media>
                         </Media>
@@ -162,11 +161,10 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h5 className="heading text-warning mb-md-1">
-                              Components
+                              My Business Sites. 
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Browse our 50 beautiful handcrafted components
-                              offered in the Free version.
+                              Here is a current list of some of my business endeavors. 
                             </p>
                           </Media>
                         </Media>
