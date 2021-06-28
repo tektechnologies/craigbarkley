@@ -1,24 +1,9 @@
-/*!
-
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
+import "../../assets/css/header.css";
+
 // reactstrap components
 import {
   Button,
@@ -38,8 +23,6 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import reactWhite from "assets/img/brand/argon-react-white.png";
-import argonReact from "assets/img/brand/argon-react.png";
 import craigName from "assets/img/brand/craig-name-white.png";
 
 
@@ -203,7 +186,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                     
-                      <i className="fa fa-linkedin fa-3x" />
+                      <i className="fa fa-linkedin fa-2x" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                        LinkedIn
                       </span>
@@ -219,7 +202,7 @@ class DemoNavbar extends React.Component {
                       id="tooltip356693867"
                       target="_blank"
                     >
-                      <i className="fa fa-instagram fa-3x" />
+                      <i className="fa fa-instagram fa-2x" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Instagram
                       </span>
@@ -235,7 +218,7 @@ class DemoNavbar extends React.Component {
                       id="tooltip184698705"
                       target="_blank"
                     >
-                      <i className="fa fa-twitter-square fa-3x" />
+                      <i className="fa fa-twitter-square fa-2x" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Twitter
                       </span>
@@ -251,7 +234,7 @@ class DemoNavbar extends React.Component {
                       id="tooltip112445449"
                       target="_blank"
                     >
-                      <i className="fa fa-github fa-3x" />
+                      <i className="fa fa-github fa-2x" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Github
                       </span>
