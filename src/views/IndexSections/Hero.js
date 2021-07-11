@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -30,7 +14,7 @@ class Hero extends React.Component {
           {/* Hero for FREE version */}
           <section className="section section-hero section-shaped">
             {/* Background circles */}
-            <div className="shape shape-style-1 shape-default">
+            <div className="shape shape-style-1 shape-primary">
               <span className="span-150" />
               <span className="span-50" />
               <span className="span-50" />
@@ -50,11 +34,10 @@ class Hero extends React.Component {
                       alt="..."
                       className="img-fluid"
                       src={reactWhite}
-                      style={{ width: "200px" }}
+                      style={{ width: "400px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      Thank you for taking time to stop by and look through my site.
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
@@ -66,12 +49,12 @@ class Hero extends React.Component {
                         <span className="btn-inner--icon mr-1">
                           <i className="ni ni-cloud-download-95" />
                         </span>
-                        <span className="btn-inner--text">Download React</span>
+                        <span className="btn-inner--text">Download Resume</span>
                       </Button>{" "}
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
-                        href="https://github.com/creativetimofficial/argon-design-system-react"
+                        href="https://github.com/tektechnologies"
                         size="lg"
                         target="_blank"
                       >
@@ -79,21 +62,10 @@ class Hero extends React.Component {
                           <i className="fa fa-github" />
                         </span>
                         <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Star us</span>
-                          on Github
+                          <span className="text-warning mr-1">GO TO</span>
+                          my Github
                         </span>
                       </Button>
-                    </div>
-                    <div className="mt-5">
-                      <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
-                      </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={creative}
-                      />
                     </div>
                   </Col>
                 </Row>
