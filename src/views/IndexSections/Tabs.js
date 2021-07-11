@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
@@ -46,14 +30,14 @@ class TabsSection extends React.Component {
   render() {
     return (
       <>
-        <h3 className="h4 text-success font-weight-bold mb-4">Tabs</h3>
+        <h3 className="h4 text-success font-weight-bold mb-4">About Me</h3>
         <Row className="justify-content-center">
           <Col lg="6">
             {/* Tabs with icons */}
             <div className="mb-3">
-              <small className="text-uppercase font-weight-bold">
-                With icons
-              </small>
+              <large className="text-uppercase font-weight-bold">
+                Education
+              </large>
             </div>
             <div className="nav-wrapper">
               <Nav
@@ -72,8 +56,8 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    <i className="ni ni-cloud-upload-96 mr-2" />
-                    Home
+                   
+                    K-12 
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -86,8 +70,8 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    <i className="ni ni-bell-55 mr-2" />
-                    Profile
+                   
+                    College
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -100,8 +84,8 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    <i className="ni ni-calendar-grid-58 mr-2" />
-                    Messages
+                    
+                  post-secondary education
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -111,33 +95,18 @@ class TabsSection extends React.Component {
                 <TabContent activeTab={"iconTabs" + this.state.iconTabs}>
                   <TabPane tabId="iconTabs1">
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
+                     K through fourth grade were in Morris, Il. Fifth through Twelfth were spent at Minooka Community High School. Sport activities; football, track, and wrestling. Worked part time for Channahon Park District. Graduation 1991.
                     </p>
-                    <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse.
-                    </p>
+                   
                   </TabPane>
                   <TabPane tabId="iconTabs2">
                     <p className="description">
-                      Cosby sweater eu banh mi, qui irure terry richardson ex
-                      squid. Aliquip placeat salvia cillum iphone. Seitan
-                      aliquip quis cardigan american apparel, butcher voluptate
-                      nisi qui.
+                      Joliet Jr. College(Science), University of Iowa(Nursing-inc), College for Air Force(Electives), Southern Illinois University-Carbondale(BS MIS)
                     </p>
                   </TabPane>
                   <TabPane tabId="iconTabs3">
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
+                    SouthWestern Illinois College(Web Design Admin), Kirkwood Community College(AAS Web Technologies and Software Development), DeltaV Coding BootCamp(Student, Teaching Assistant, Instructor Full Stack JavaScript).
                     </p>
                   </TabPane>
                 </TabContent>
@@ -147,9 +116,9 @@ class TabsSection extends React.Component {
           <Col className="mt-5 mt-lg-0" lg="6">
             {/* Menu */}
             <div className="mb-3">
-              <small className="text-uppercase font-weight-bold">
-                With text
-              </small>
+              <large className="text-uppercase font-weight-bold">
+                Experience
+              </large>
             </div>
             <div className="nav-wrapper">
               <Nav
@@ -168,7 +137,7 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    Home
+                    Travel
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -181,7 +150,7 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    Profile
+                    Business
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -194,7 +163,7 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    Messages
+                    Art
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -204,33 +173,17 @@ class TabsSection extends React.Component {
                 <TabContent activeTab={"plainTabs" + this.state.plainTabs}>
                   <TabPane tabId="plainTabs1">
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
-                    </p>
-                    <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse.
+                      I have visited fourty-three states in the US. Globally I have been fortunate to have stayed in over twenty different countrys including Germany, England, Greece, Oman, Jordan, Portugal, Turkey, Amsterdam, Panama, El Salvador, Italy, Sicily, Egypt, Newfoundland, Greenland and many more.
                     </p>
                   </TabPane>
                   <TabPane tabId="plainTabs2">
                     <p className="description">
-                      Cosby sweater eu banh mi, qui irure terry richardson ex
-                      squid. Aliquip placeat salvia cillum iphone. Seitan
-                      aliquip quis cardigan american apparel, butcher voluptate
-                      nisi qui.
+                      I was raised in an entreprenuerial environment, I was a natural fit. One project I manage is Tektechnologies.com and it allows me to help other businesses build out their online presence and increase customer reach. I also work as a glass Artist and sell online at gatheringelements.com.   
                     </p>
                   </TabPane>
                   <TabPane tabId="plainTabs3">
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
+                      I have been working with glass since the fall of 2000. I have done many types of glass art work and have the most interest in glass lampworking. I have taught glass bead making over the years and at Community Colleges. I have been lucky to share my skills with several apprencites, hopfully they do the same. 
                     </p>
                   </TabPane>
                 </TabContent>
@@ -238,6 +191,12 @@ class TabsSection extends React.Component {
             </Card>
           </Col>
         </Row>
+
+
+
+
+
+     
       </>
     );
   }
