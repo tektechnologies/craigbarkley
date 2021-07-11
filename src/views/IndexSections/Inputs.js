@@ -4,15 +4,9 @@ import React from "react";
 import classnames from "classnames";
 // reactstrap components
 import {
-  FormGroup,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+ 
   Container,
-  Row,
-  Button,
-  Col
+  Button
 } from "reactstrap";
 
 class Inputs extends React.Component {
