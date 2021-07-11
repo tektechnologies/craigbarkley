@@ -70,7 +70,7 @@ class BasicElements extends React.Component {
                   Roller Skating Lessons
                 </Button>
                 <Button className="btn-1 ml-1" size="lg" color="danger" type="button">
-                   Networking and Operations Basics
+                   Networking Operations Basics
                 </Button>
                 <Button className="btn-1 ml-1" size="lg" color="success" type="button">
                   Glass LampWorking
@@ -147,7 +147,7 @@ class BasicElements extends React.Component {
                 className="section section-components pb-0"
                 id="section-components"
               >
-              <div className="py-5 bg-secondary">
+              <div className="py-5 bg-dark">
                 <Container>
                   <Row className="justify-content-center">
                     <Col lg="12">
@@ -161,7 +161,7 @@ class BasicElements extends React.Component {
 
 
 
-                <Button className="btn-1" color="primary" outline type="button">
+                <Button className="btn-1" color="warning" outline type="button">
                 JavaScript Instructor
               </Button>
               <Button
@@ -177,7 +177,7 @@ class BasicElements extends React.Component {
               </Button>
               <Button
                 className="btn-1 ml-1"
-                color="success"
+                color="white"
                 outline
                 type="button"
               >
@@ -217,7 +217,7 @@ class BasicElements extends React.Component {
                 >
                   Paper Boy
                 </Button>
-                <Button className="btn-1" color="primary" outline type="button">
+                <Button className="btn-1" color="white" outline type="button">
                   Shipping and Receiving Manager
                 </Button>
                 <Button
@@ -352,7 +352,7 @@ class BasicElements extends React.Component {
           >
             Technology Tutor at Community College
           </Button>
-          <Button className="btn-1" color="primary" outline type="button">
+          <Button className="btn-1" color="white" outline type="button">
             Glass Art Instructor at Community College
           </Button>
           <Button

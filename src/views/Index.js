@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -28,8 +12,6 @@ import CardsFooter from "components/Footers/CardsFooter.js";
 import Hero from "./IndexSections/Hero.js";
 import Buttons from "./IndexSections/Buttons.js";
 import Inputs from "./IndexSections/Inputs.js";
-import CustomControls from "./IndexSections/CustomControls.js";
-import Menus from "./IndexSections/Menus.js";
 import Navbars from "./IndexSections/Navbars.js";
 import Tabs from "./IndexSections/Tabs.js";
 import Progress from "./IndexSections/Progress.js";
@@ -60,31 +42,13 @@ class Index extends React.Component {
           <Hero />
           <Buttons />
           <Inputs />
-          <section className="section">
-            <Container>
-              <CustomControls />
-              <Menus />
-            </Container>
-          </section>
-          <Navbars />
           <section className="section section-components">
             <Container>
               <Tabs />
-              <Row className="row-grid justify-content-between align-items-center mt-lg">
-                <Progress />
-                <Pagination />
-              </Row>
-              <Row className="row-grid justify-content-between">
-                <Pills />
-                <Labels />
-              </Row>
-              <Alerts />
-              <Typography />
-              <Modals />
-              <Datepicker />
-              <TooltipPopover />
             </Container>
-          </section>
+           </section>
+          <Navbars />
+         
           <Carousel />
           <Icons />
           <Login />

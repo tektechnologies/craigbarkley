@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates classes
@@ -34,7 +18,12 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
+  Navbar,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink
 } from "reactstrap";
 import github from "assets/img/icons/common/github.svg";
 import googleImg from "assets/img/icons/common/google.svg";
@@ -44,6 +33,48 @@ class Login extends React.Component {
   render() {
     return (
       <>
+      <Navbar className="navbar-dark bg-danger" expand="lg">
+      <Container>
+        <NavbarBrand href="#pablo" onClick={e => e.preventDefault()}>
+        </NavbarBrand>
+          <Nav navbar>
+            <NavItem>
+              <NavLink
+                
+                href="#pablo"
+                onClick={e => e.preventDefault()}
+              >
+                <i className="fa fa-cog fa-2x" />              
+              </NavLink>
+            </NavItem>
+          </Nav>
+      </Container>
+    </Navbar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <section className="section section-lg section-shaped">
           <div className="shape shape-style-1 shape-default">
             <span />
