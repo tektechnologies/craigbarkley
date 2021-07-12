@@ -28,12 +28,9 @@ class Icons extends React.Component {
           <Container>
             <Row className="justify-content-center">
               <Col className="text-center" lg="8">
-                <h2 className="display-3">Nucleo Icons</h2>
+                <h2 className="display-3">Technology Experience</h2>
                 <p className="lead">
-                  The official package contains over 21.000 icons which are
-                  looking great in combination with Argon Design System. Make
-                  sure you check all of them and use those that you like the
-                  most.
+                 From the family network guy: to Full Stack Web Developer. I have worked with many technologies over the last few years. While completing my MIS in Business Administration, I began studying networking and wireless technologies. That experience brought me to the web, where I learned how to code HTML in Dreamweaver. And so on...
                 </p>
                 <div className="btn-wrapper">
                   <Button
