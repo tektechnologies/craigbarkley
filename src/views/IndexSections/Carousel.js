@@ -279,19 +279,17 @@ class Carousel extends React.Component {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  Bootstrap carousel
+                  Hire Me!
                 </h1>
                 <p className="lead text-white mt-4">
-                  Argon Design System comes with four pre-built pages to help
-                  you get started faster. You can change the text and images and
-                  you're good to go.
+                Do you have a rewarding opportunity for a profession who is a team player and reliable developer? I am always on the look out for my next rewarding challenge and adventure. Send me an email or reach out to me on LinkedIn. 
                 </p>
                 <Button
                   className="btn-white mt-4"
                   color="default"
                   href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
                 >
-                  See all components
+                  LinkedIn 
                 </Button>
               </Col>
               <Col className="mb-lg-auto" lg="6">
