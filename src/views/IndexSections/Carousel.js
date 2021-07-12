@@ -65,67 +65,50 @@ class Carousel extends React.Component {
       <Col lg="4">
         <Card className="card-lift--hover shadow border-0">
           <CardBody className="py-5">
-            <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-              <i className="ni ni-check-bold" />
+            <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+              <i className="fa fa-fire" />
             </div>
-            <h6 className="text-primary text-uppercase">
-              Download Argon
+            <h6 className="text-warning text-uppercase">
+              Gathering Elements
             </h6>
             <p className="description mt-3">
-              Argon is a great free UI package based on Bootstrap
-              4 that includes the most important components and
-              features.
+               I have been working glass art since I left the military in 2000. Working glass allows for meditation on the mundane, allowing for mindfullness. Take Time to Make Time. 
             </p>
             <div>
-              <Badge color="primary" pill className="mr-1">
-                design
+              <Badge color="warning" pill className="mr-1">
+                Beads
               </Badge>
-              <Badge color="primary" pill className="mr-1">
-                system
+              <Badge color="warning" pill className="mr-1">
+                Pendants
               </Badge>
-              <Badge color="primary" pill className="mr-1">
-                creative
+              <Badge color="warning" pill className="mr-1">
+                Jars
               </Badge>
-            </div>
+              <Badge color="warning" pill className="mr-1">
+              Rings
+            </Badge>
+            <Badge color="warning" pill className="mr-1">
+            Lessons
+          </Badge>
+          <Badge color="warning" pill className="mr-1">
+          Ceramics
+        </Badge>
+
+        <Badge color="warning" pill className="mr-1">
+        Fused Glass
+      </Badge>
+      <Badge color="warning" pill className="mr-1">
+      
+    </Badge>
+    <Badge color="warning" pill className="mr-1">
+    Art
+  </Badge>
+
+
+        </div>
             <Button
               className="mt-4"
-              color="primary"
-              href="#pablo"
-              onClick={e => e.preventDefault()}
-            >
-              Learn more
-            </Button>
-          </CardBody>
-        </Card>
-      </Col>
-      <Col lg="4">
-        <Card className="card-lift--hover shadow border-0">
-          <CardBody className="py-5">
-            <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-              <i className="ni ni-istanbul" />
-            </div>
-            <h6 className="text-success text-uppercase">
-              Build Something
-            </h6>
-            <p className="description mt-3">
-              Argon is a great free UI package based on Bootstrap
-              4 that includes the most important components and
-              features.
-            </p>
-            <div>
-              <Badge color="success" pill className="mr-1">
-                business
-              </Badge>
-              <Badge color="success" pill className="mr-1">
-                vision
-              </Badge>
-              <Badge color="success" pill className="mr-1">
-                success
-              </Badge>
-            </div>
-            <Button
-              className="mt-4"
-              color="success"
+              color="warning"
               href="#pablo"
               onClick={e => e.preventDefault()}
             >
@@ -138,25 +121,69 @@ class Carousel extends React.Component {
         <Card className="card-lift--hover shadow border-0">
           <CardBody className="py-5">
             <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-              <i className="ni ni-planet" />
+              <i className="fa fa-gamepad" />
             </div>
             <h6 className="text-warning text-uppercase">
-              Prepare Launch
+              Video Gaming
             </h6>
             <p className="description mt-3">
-              Argon is a great free UI package based on Bootstrap
-              4 that includes the most important components and
-              features.
+              Atari 2600, was my first system, I have enjoyed xbox, ps2,3,4 and game boy pocket. Most recently, San Andreas on iphone.
             </p>
             <div>
               <Badge color="warning" pill className="mr-1">
-                marketing
+                GTA
               </Badge>
               <Badge color="warning" pill className="mr-1">
-                product
+              Worms 2: Armageddon
               </Badge>
               <Badge color="warning" pill className="mr-1">
-                launch
+                Oddworld
+              </Badge>
+                  <Badge color="warning" pill className="mr-1">
+                  SSX 3
+                </Badge>
+                <Badge color="warning" pill className="mr-1">
+                AC: Origins
+              </Badge>
+                <Badge color="warning" pill className="mr-1">
+                Drakan: The Ancients' Gates
+              </Badge>
+              <Badge color="warning" pill className="mr-1">
+              Halo
+            </Badge>
+            </div>
+            <Button
+              className="mt-4"
+              color="warning"
+              href="#pablo"
+              onClick={e => e.preventDefault()}
+            >
+              Learn more
+            </Button>
+          </CardBody>
+        </Card>
+      </Col>
+      <Col lg="4">
+        <Card className="card-lift--hover shadow border-0">
+          <CardBody className="py-5">
+            <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+              <i className="fa fa-plane" />
+            </div>
+            <h6 className="text-warning text-uppercase">
+              USAF
+            </h6>
+            <p className="description mt-3">
+              While on active duty at Little Rock AFB, I deployed to Germany, Oman, Jordan, Saudi Arabia, and traveled globally from those locations. I worked as a C-130 Aircraft Loadmaster.
+            </p>
+            <div>
+              <Badge color="warning" pill className="mr-1">
+                Ground Training Desk
+              </Badge>
+              <Badge color="warning" pill className="mr-1">
+                CDS Kit Manager
+              </Badge>
+              <Badge color="warning" pill className="mr-1">
+                Lots of Crew Rest...
               </Badge>
             </div>
             <Button
