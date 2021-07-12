@@ -112,7 +112,7 @@ class Carousel extends React.Component {
               href="#pablo"
               onClick={e => e.preventDefault()}
             >
-              Learn more
+              Gathering Elements
             </Button>
           </CardBody>
         </Card>
@@ -158,7 +158,7 @@ class Carousel extends React.Component {
               href="#pablo"
               onClick={e => e.preventDefault()}
             >
-              Learn more
+              About Me
             </Button>
           </CardBody>
         </Card>
@@ -192,7 +192,7 @@ class Carousel extends React.Component {
               href="#pablo"
               onClick={e => e.preventDefault()}
             >
-              Learn more
+              Aim High
             </Button>
           </CardBody>
         </Card>
