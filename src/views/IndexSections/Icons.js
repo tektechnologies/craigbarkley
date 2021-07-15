@@ -35,40 +35,40 @@ class Icons extends React.Component {
                 <div className="btn-wrapper">
                   <Button
                     color="primary"
-                    href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/icons?ref=adsr-landing-page"
+                    href="/profile-page"
                   >
-                    View demo icons
+                    View Profile
                   </Button>
                   <Button
                     className="mt-3 mt-md-0"
                     color="default"
-                    href="https://nucleoapp.com/?ref=1712"
+                    href="/landing-page"
                     target="_blank"
                   >
-                    View all icons
+                    View About Me
                   </Button>
                 </div>
               </Col>
             </Row>
             <div className="blur--hover">
-              <a href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/icons?ref=adsr-landing-page">
+              <a href="https://www.linkedin.com/in/craig-barkley-25017b65/">
                 <div className="icons-container blur-item mt-5 on-screen">
-                  <i className="icon ni ni-diamond" />
-                  <i className="icon icon-sm ni ni-album-2" />
-                  <i className="icon icon-sm ni ni-app" />
-                  <i className="icon icon-sm ni ni-atom" />
-                  <i className="icon ni ni-bag-17" />
-                  <i className="icon ni ni-bell-55" />
-                  <i className="icon ni ni-credit-card" />
-                  <i className="icon icon-sm ni ni-briefcase-24" />
-                  <i className="icon icon-sm ni ni-building" />
-                  <i className="icon icon-sm ni ni-button-play" />
-                  <i className="icon ni ni-calendar-grid-58" />
-                  <i className="icon ni ni-camera-compact" />
+                  <i className="icon fa fa-git" />
+                  <i className="icon fa fa-apple" />
+                  <i className="icon fa fa-github" />
+                  <i className="icon fa fa-trello" />
+                  <i className="icon fa fa-html5" />
+                  <i className="icon fa fa-css3" />
+                  <i className="icon fa fa-fort-awesome" />
+                  <i className="icon fa fa-codepen" />
+                  <i className="icon fa fa-google" />
+                  <i className="icon fa fa-opencart" />
+                  <i className="icon fa fa-slack" />
+                  <i className="icon fa fa-stack-overflow" />
                   <i className="icon ni ni-chart-bar-32" />
                 </div>
                 <span className="blur-hidden h5 text-success">
-                  Eplore all the 21.000+ Nucleo Icons
+                   <b><h2>Employment history on LinkedIn.</h2></b>  
                 </span>
               </a>
             </div>
