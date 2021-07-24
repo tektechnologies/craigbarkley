@@ -65,7 +65,7 @@ class Navbars extends React.Component {
       </div>
       <h3>Most Recent Employers</h3>
       <p>
-      Paths take us many places, since 2012, I have been lucky enough to learn and growth with the following organizations. I have also enjoyed selling my glass art at farmers markets and helping other artisans build their own presence online. 
+      Paths take us many places, since 2012, I have been lucky enough to learn and grow with the following organizations. I have also enjoyed selling my glass art at farmers markets and helping other artisans build their own presence online. 
       </p>
       <ul className="list-unstyled mt-5">
         <li className="py-2">

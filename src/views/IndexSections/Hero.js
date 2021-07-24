@@ -4,7 +4,6 @@ import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 import reactWhite from "assets/img/brand/argon-react-white.png";
-import creative from "assets/img/brand/creativetim-white-slim.png";
 
 class Hero extends React.Component {
   render() {

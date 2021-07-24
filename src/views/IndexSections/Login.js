@@ -90,19 +90,19 @@ class Login extends React.Component {
             <Row className="row-grid justify-content-between align-items-center">
               <Col lg="6">
                 <h3 className="display-3 text-white">
-                  A beautiful Design System{" "}
-                  <span className="text-white">completed with examples</span>
+                  Do you need a website? {" "}
+                  <span className="text-white">Lets grab a cup of coffee and talk.</span>
                 </h3>
                 <p className="lead text-white">
-                  The Design System comes with four pre-built pages to help you
-                  get started faster. You can change the text and images and
-                  you're good to go. More importantly, looking at them will give
-                  you a picture of what you can built with this powerful
-                  Bootstrap 4 Design System.
+                  Maybe you need an online store to sell the products you make as an artistan or small business. Do you need additional applications built into an exsisting site? Whether you run Professional Services, Retail business or Food and Beverage, Tek Technologies has solutions that can help.
                 </p>
                 <div className="btn-wrapper">
-                  <Button color="success" to="/login-page" tag={Link}>
-                    Login Page
+                  <Button 
+                    color="success" 
+                    to="/login-page" 
+                    href="https://www.secureserver.net/?pl_id=528714"
+                    >
+                    Tek Technologies
                   </Button>
                   <Button
                     className="btn-white"
@@ -110,7 +110,7 @@ class Login extends React.Component {
                     to="/register-page"
                     tag={Link}
                   >
-                    Register Page
+                    Project Investment
                   </Button>
                 </div>
               </Col>
@@ -119,42 +119,36 @@ class Login extends React.Component {
                   <Card className="bg-secondary shadow border-0">
                     <CardHeader className="bg-white pb-5">
                       <div className="text-muted text-center mb-3">
-                        <small>Sign in with</small>
+                        <big>Email Services</big>
                       </div>
                       <div className="btn-wrapper text-center">
                         <Button
                           className="btn-neutral btn-icon"
                           color="default"
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          href="https://www.secureserver.net/help?pl_id=528714&prog_id=528714"
+                         
                         >
                           <span className="btn-inner--icon mr-1">
-                            <img
-                              alt="..."
-                              src={github}
-                            />
+                           
                           </span>
-                          <span className="btn-inner--text">Github</span>
+                          <span className="btn-inner--text">24 Hour Support</span>
                         </Button>
                         <Button
                           className="btn-neutral btn-icon"
                           color="default"
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          href="https://www.secureserver.net/products/website-builder?plid=528714"
+                          
                         >
                           <span className="btn-inner--icon mr-1">
-                            <img
-                              alt="..."
-                              src={googleImg}
-                            />
+                            
                           </span>
-                          <span className="btn-inner--text">Google</span>
+                          <span className="btn-inner--text">Web Sites</span>
                         </Button>
                       </div>
                     </CardHeader>
                     <CardBody className="px-lg-5 py-lg-5">
                       <div className="text-center text-muted mb-4">
-                        <small>Or sign in with credentials</small>
+                        <big>New .COMs $16.99*</big>
                       </div>
                       <Form role="form">
                         <FormGroup
@@ -165,12 +159,12 @@ class Login extends React.Component {
                           <InputGroup className="input-group-alternative">
                             <InputGroupAddon addonType="prepend">
                               <InputGroupText>
-                                <i className="ni ni-email-83" />
+                                <i className="fa fa-folder-open" />
                               </InputGroupText>
                             </InputGroupAddon>
                             <Input
-                              placeholder="Email"
-                              type="email"
+                              placeholder="Web Sites include Hosting"
+                              type="web"
                               onFocus={() =>
                                 this.setState({ emailFocused: true })
                               }
@@ -192,7 +186,8 @@ class Login extends React.Component {
                               </InputGroupText>
                             </InputGroupAddon>
                             <Input
-                              placeholder="Password"
+                              placeholder="Website Security
+                              "
                               type="password"
                               autoComplete="off"
                               onFocus={() =>
@@ -214,7 +209,7 @@ class Login extends React.Component {
                             className="custom-control-label"
                             htmlFor="customCheckLogin2"
                           >
-                            <span>Remember me</span>
+                            <span>Check it out!</span>
                           </label>
                         </div>
                         <div className="text-center">
@@ -222,6 +217,7 @@ class Login extends React.Component {
                             className="my-4"
                             color="primary"
                             type="button"
+                            href="https://www.secureserver.net/?pl_id=528714"
                           >
                             Sign in
                           </Button>

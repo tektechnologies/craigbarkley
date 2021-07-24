@@ -282,7 +282,7 @@ class Carousel extends React.Component {
                   Hire Me!
                 </h1>
                 <p className="lead text-white mt-4">
-                Do you have a rewarding opportunity for a profession who is a team player and reliable developer? I am always on the look out for my next rewarding challenge and adventure. Send me an email or reach out to me on LinkedIn. 
+                Have a rewarding employment opportunity? Looking for a profession full stack developer; team player? Your work vacancy could be my next rewarding challenge and adventure. Send me an email or reach out to me on LinkedIn. 
                 </p>
                 <Button
                   className="btn-white mt-4"
