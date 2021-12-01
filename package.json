@@ -68,6 +68,5 @@
     "gulp-append-prepend": "1.0.8",
     "jquery": "^3.6.0",
     "typescript": "3.7.5"
-    
   }
 }

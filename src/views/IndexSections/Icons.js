@@ -35,7 +35,7 @@ class Icons extends React.Component {
                 <div className="btn-wrapper">
                   <Button
                     color="primary"
-                    href="https://www.linkedin.com/in/craig-barkley-25017b65/e"
+                    href="https://www.linkedin.com/in/craig-barkley-25017b65/"
                   >
                     View Profile
                   </Button>
