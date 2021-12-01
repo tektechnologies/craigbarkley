@@ -31,7 +31,7 @@ class Download extends React.Component {
                 </div>
                 <div className="text-center">
                   <h4 className="display-4 mb-5 mt-5">
-                    Available Products online December 2021.
+                    Technologies I have been working with in 2021.
                   </h4>
                   <Row className="justify-content-center">
                     <Col lg="2" xs="4">
@@ -50,38 +50,8 @@ class Download extends React.Component {
                         Bootstrap 4 - Most popular front-end component library
                       </UncontrolledTooltip>
                     </Col>
-                    <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/vue-argon-design-system?ref=adsr-landing-page"
-                        id="tooltip265846671"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg"
-                        />
-                      </a>
-                      <UncontrolledTooltip delay={0} target="tooltip265846671">
-                        Vue.js - The progressive javascript framework
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsr-landing-page"
-                        id="tooltip233150499"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg"
-                        />
-                      </a>
-                      <UncontrolledTooltip delay={0} target="tooltip233150499">
-                        Angular - One framework. Mobile & Desktop
-                      </UncontrolledTooltip>
-                    </Col>
+                    
+                  
                     <Col lg="2" xs="4">
                       <a
                         href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
@@ -99,22 +69,7 @@ class Download extends React.Component {
                         interfaces
                       </UncontrolledTooltip>
                     </Col>
-                    <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        id="tooltip76119384"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg"
-                        />
-                      </a>
-                      <UncontrolledTooltip delay={0} target="tooltip76119384">
-                        Sketch - Digital design toolkit
-                      </UncontrolledTooltip>
-                    </Col>
+                    
                     <Col lg="2" xs="4">
                       <a
                         href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
