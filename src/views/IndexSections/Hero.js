@@ -4,6 +4,7 @@ import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 import reactWhite from "assets/img/brand/argon-react-white.png";
+import craigResume from "files/CraigResume.pdf";
 
 class Hero extends React.Component {
   render() {
@@ -42,13 +43,13 @@ class Hero extends React.Component {
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href={craigResume}
                         size="lg"
                       >
                         <span className="btn-inner--icon mr-1">
                           <i className="ni ni-cloud-download-95" />
                         </span>
-                        <span className="btn-inner--text">Download Resume</span>
+                        <span className="btn-inner--text">View Resume</span>
                       </Button>{" "}
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
