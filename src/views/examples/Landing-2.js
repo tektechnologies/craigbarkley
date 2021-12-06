@@ -64,11 +64,8 @@ class Landing2 extends React.Component {
                     <Col lg="6">
                       <h1 className="display-3 text-white">
                        Boost your companies growth by investing in your information technology.
-                        <span>Plan your work, then work your plan.</span>
+                        <span>PROJECT INVESTMENT</span>
                       </h1>
-                      <p className="lead text-white">
-                      I am committed to using my education, work experience and sociable personality to effectively follow procedures and resolve client issues in a productive and positive manner. I enjoy working with others on helping them overcome technological barriers, while creating competitive advantages..
-                      </p>
                     </Col>
                   </Row>
                 </div>
@@ -93,9 +90,9 @@ class Landing2 extends React.Component {
             {/* 1st Hero Variation */}
           </div>
           <section className="section section-lg pt-lg-0 mt--200">
-            <Container>
+           
               <Row className="justify-content-center">
-                <Col lg="12">
+                <Col lg="11">
                   <Row className="row-grid">
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
@@ -103,33 +100,75 @@ class Landing2 extends React.Component {
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
                           </div>
-                          <h6 className="text-primary text-uppercase">
-                            Download Argon
-                          </h6>
-                          <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
-                          </p>
+                          <h4 className="text-primary text-uppercase">
+                            WEBSITE DELIVERABLE
+                          </h4>
+                          
                           <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
-                            </Badge>
+                           <h1> 
+                              <Badge color="primary" pill className="mr-1">
+                                 Planning
+                              </Badge>
+                           </h1>
+                           <h1> <Badge color="primary" pill className="mr-1">
+                           Conversion Content
+                         </Badge></h1>
+                             
+                         
+                            
+                            <h1><Badge color="primary" pill className="mr-1">
+                            Additional Content
+                          </Badge></h1>
+                        
+                          <h1> <Badge color="primary" pill className="mr-1">
+                          Search Content
+                        </Badge></h1>
+                          <h1><Badge color="primary" pill className="mr-1">
+                          Design
+                        </Badge></h1>
+                          <h1><Badge color="primary" pill className="mr-1">
+                          Mobile Design
+                        </Badge></h1>
+                          <h1>
+                          <Badge color="primary" pill className="mr-1">
+                            Website Build
+                          </Badge></h1>
+                          <h1> 
+                          <Badge color="primary" pill className="mr-1">
+                            Email Marketing Setup
+                          </Badge></h1>
+                          <h1><Badge color="primary" pill className="mr-1">
+                          Social Media Setup
+                        </Badge></h1>
+                          <h1><Badge color="primary" pill className="mr-1">
+                          Go Live; Maintenance
+                        </Badge></h1>
+                           
+                            
+                           
+                            
+                            <h1>  <Badge color="primary" pill className="mr-1">
+                            Training
+                          </Badge></h1>
+                          
+                          <h1>  <Badge color="primary" pill className="mr-1">
+                         Completion
+                        </Badge></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
                           </div>
-                          <Button
-                            className="mt-4"
-                            color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
+                         
                         </CardBody>
                       </Card>
                     </Col>
@@ -139,33 +178,72 @@ class Landing2 extends React.Component {
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
                           </div>
-                          <h6 className="text-success text-uppercase">
-                            Build Something
-                          </h6>
-                          <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
-                          </p>
+                          <h4 className="text-success text-uppercase">
+                            TIME FRAME
+                          </h4>
+                         
                           <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
+                          <h1><Badge color="success" pill className="mr-1">
+                          1 Weeks
+                        </Badge></h1>
+                          <h1> <Badge color="success" pill className="mr-1">
+                          3 Weeks
+                          </Badge></h1>
+                          <h1><Badge color="success" pill className="mr-1">
+                          2 Weeks
+                          </Badge></h1>
+                          <h1><Badge color="success" pill className="mr-1">
+                          2 Weeks
+                          </Badge></h1>
+                          <h1><Badge color="success" pill className="mr-1">
+                          3 Weeks
+                          </Badge></h1>
+                          <h1><Badge color="success" pill className="mr-1">
+                          2 Weeks
+                          </Badge></h1>
+                          <h1><Badge color="success" pill className="mr-1">
+                          2 Weeks
+                          </Badge></h1>
+                          <h1><Badge color="success" pill className="mr-1">
+                          1 Weeks
+                          </Badge></h1>
+                          <h1><Badge color="success" pill className="mr-1">
+                          2 Weeks
+                          </Badge></h1>
+                          <h1><Badge color="success" pill className="mr-1">
+                          4 Weeks
+                          </Badge></h1>
+                          <h1><Badge color="success" pill className="mr-1">
+                          3 Days
+                          </Badge></h1>
+
+                          <h1><Badge color="success" pill className="mr-1">
+                          Total Time 12 Weeks
+                          </Badge></h1>
+                          
+                            
+                           
+                          
+                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                           </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
+                         
                         </CardBody>
                       </Card>
                     </Col>
@@ -175,40 +253,89 @@ class Landing2 extends React.Component {
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
                           </div>
-                          <h6 className="text-warning text-uppercase">
-                            Prepare Launch
-                          </h6>
-                          <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
-                          </p>
+                          <h4 className="text-warning text-uppercase">
+                            COST
+                          </h4>
+                         
                           <div>
+
+                          <h1>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              $2,000
                             </Badge>
+                          </h1>
+                          <h1>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                              $4,000
                             </Badge>
+                          </h1>
+                          <h1>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                              $1,500
                             </Badge>
+                          </h1>
+                          <h1>
+                            <Badge color="warning" pill className="mr-1">
+                              $2,000
+                            </Badge>
+                          </h1>
+                          <h1>
+                            <Badge color="warning" pill className="mr-1">
+                              $6,300
+                            </Badge>
+                          </h1>
+                          <h1>
+                            <Badge color="warning" pill className="mr-1">
+                              $2,000
+                            </Badge>
+                          </h1>
+                          <h1>
+                            <Badge color="warning" pill className="mr-1">
+                              $5,500
+                            </Badge>
+                          </h1>
+                          <h1>
+                            <Badge color="warning" pill className="mr-1">
+                              $1,000
+                            </Badge>
+                          </h1>
+                          <h1>
+                            <Badge color="warning" pill className="mr-1">
+                              $4,000
+                            </Badge>
+                          </h1>
+                          <h1>
+                            <Badge color="warning" pill className="mr-1">
+                              $1,500
+                            </Badge>
+                          </h1>
+                          <h1>
+                            <Badge color="warning" pill className="mr-1">
+                              $1,000
+                            </Badge>
+                          </h1>
+                          <h1>
+                          <Badge color="warning" pill className="mr-1">
+                            Total $30,800
+                          </Badge>
+                        </h1>
+
+                            
+                            
+
+
+
+
+
                           </div>
-                          <Button
-                            className="mt-4"
-                            color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
+                          
                         </CardBody>
                       </Card>
                     </Col>
                   </Row>
                 </Col>
               </Row>
-            </Container>
+            
           </section>
           <section className="section section-lg">
             <Container>
