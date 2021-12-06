@@ -63,7 +63,7 @@ class Landing2 extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        Information Systems Manager and Full Stack Developer
+                       Boost your companies growth by investing in your information technology.
                         <span>Plan your work, then work your plan.</span>
                       </h1>
                       <p className="lead text-white">
@@ -825,4 +825,4 @@ class Landing2 extends React.Component {
   }
 }
 
-export default Landing22;
+export default Landing2;

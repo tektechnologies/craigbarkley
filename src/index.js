@@ -9,6 +9,7 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
 import Landing from "views/examples/Landing.js";
+import Landing2 from "views/examples/Landing-2.js";
 import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
@@ -21,6 +22,11 @@ ReactDOM.render(
         path="/landing-page"
         exact
         render={props => <Landing {...props} />}
+      />
+      <Route
+        path="/landing-page2"
+        exact
+        render={props => <Landing2 {...props} />}
       />
       <Route path="/login-page" exact render={props => <Login {...props} />} />
       <Route
