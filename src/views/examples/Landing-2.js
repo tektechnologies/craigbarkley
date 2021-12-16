@@ -218,7 +218,7 @@ class Landing2 extends React.Component {
                           </Badge></h1>
 
                           <h1><Badge color="success" pill className="mr-1">
-                          Total Time 12 Weeks
+                          Total Time 3 Months
                           </Badge></h1>
                           
                             
@@ -352,11 +352,9 @@ class Landing2 extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>Awesome features</h3>
+                    <h3>Optional Itemizations</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      Ongoing traffic generation and site maintenance. To Include SEO, Social Monitoring, Social Media Training. SEO services supported by monthly retainer that begins after site launch. Social Monitoring, as well begins after site goes live. 
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -371,7 +369,7 @@ class Landing2 extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Carefully crafted components
+                              SEO investment $1,500
                             </h6>
                           </div>
                         </div>
@@ -387,7 +385,9 @@ class Landing2 extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
+                            <h6 className="mb-0">
+                            Social Monitoring investment $900.
+                            </h6>
                           </div>
                         </div>
                       </li>
@@ -403,7 +403,7 @@ class Landing2 extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Super friendly support team
+                             Social Media Training investment $3,000.
                             </h6>
                           </div>
                         </div>
@@ -442,12 +442,10 @@ class Landing2 extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                        TEK technologies.
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                        Tacit and Explicit Knowledge technologies. We look at implict and explicit facets of our tangible and intangible world and how your technologies can adapt successfully in your chosen industry. 
                       </p>
                     </blockquote>
                   </Card>
@@ -459,26 +457,22 @@ class Landing2 extends React.Component {
                     </div>
                     <h3>Our customers</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                      Don't let your users guess how to best use your products and
+                      services. Make action-able points to ensure you enable them
+                      to have the best UI/UX experience first.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                    Need help? Contact us. We understand that everything doesn’t always go to plan. That’s why we pride ourselves on top-notch quality of support, any time of the day. 
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                    Call (480) 624-2500.
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                     >
-                      A beautiful UI Kit for impactful websites
+                      We build beautiful UI's for impactful websites.
                     </a>
                   </div>
                 </Col>
@@ -507,9 +501,7 @@ class Landing2 extends React.Component {
                     <div className="pl-4">
                       <h4 className="display-3 text-white">Modern Interface</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                        TEK technologies, support and agile practices.
                       </p>
                     </div>
                   </div>
@@ -526,9 +518,7 @@ class Landing2 extends React.Component {
                             Awesome Support
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            The 24 hour support will help you with most every issues, if you are unable to resolve more technical issues during the teams off time. 
                           </p>
                           <a
                             className="text-success"
@@ -551,12 +541,10 @@ class Landing2 extends React.Component {
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-warning">
-                            Modular Components
+                            Agile Componentization
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            The client, knows best, do you have a specialized tech stack? Our agile practices, allow for those discussions to take place. 
                           </p>
                           <a
                             className="text-warning"
