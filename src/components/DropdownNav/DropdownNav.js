@@ -16,10 +16,16 @@ const SiderBar = styled.div`
   align-items: center;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
+`;
 
-
-`
-
+const CloseIcon = styled(FaTimes)`
+  font-size: 2rem;
+  color: #fff;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+`;
 
 class DropdownNav extends React.Component {
   render() {
