@@ -10,6 +10,7 @@ class HomePage extends Component {
       <ClientWork />
       <About />
       <Contact />
+      <SocialIcon />
       <Footer />
       <ScrollToTop />
      </>
