@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import DeveloperManagerArtist from '';
+import DeveloperManagerArtist from '../components/DeveloperManagerArtist/DeveloperManagerArtist';
+
 
 class HomePage extends Component {
   render() {
@@ -15,3 +16,5 @@ class HomePage extends Component {
     )
   }
 }
+
+export default HomePage;
