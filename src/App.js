@@ -1,10 +1,20 @@
-import './App.css';
-import HomePage from './HomePage';
+import HomePage from "./views/HomePage";
+import "../src/App.css";
 
-function App() {
-  return (
-    <HomePage />
-  );
+import React from "react";
+
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <div className="App">
+          <header className="App-header">
+            <HomePage />
+          </header>
+        </div>
+      </>
+    );
+  }
 }
 
 export default App;
