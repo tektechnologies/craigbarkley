@@ -27,6 +27,26 @@ const CloseIcon = styled(FaTimes)`
   cursor: pointer;
 `;
 
+export const NavMenu = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .menu-item + .menu-item {
+    margin-top: 2rem;
+  }
+`;
+
+
+
+
+
+
+
+
+
+
 class DropdownNav extends React.Component {
   render() {
     return (
