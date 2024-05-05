@@ -63,8 +63,17 @@ font-size: 1.7rem;
 
 class DropdownNav extends React.Component {
   render() {
+    const {isOpen, toggle} = this.props;
     return (
-      <div>DropdownNav</div>
+      <SiderBar isOpen={isOpen} onClick={toggle}>
+        <CloseIcon onClick={toggle} />
+      </SiderBar>
+      
+
+
+
+
+
     )
   }
 }
