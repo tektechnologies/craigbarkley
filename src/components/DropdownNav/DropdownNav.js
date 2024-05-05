@@ -49,7 +49,12 @@ export const NavLink = styled(ScrollLink)`
   }
 `;
 
-
+export const NavBtn = styled.div`
+display: flex;
+justify-content: center;
+margin-top: 5rem;
+font-size: 1.7rem;
+`;
 
 
 
