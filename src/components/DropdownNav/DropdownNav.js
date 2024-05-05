@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaTimes } from 'react-icons/fa';
 import styled from '@emotion/styled';
+import { Link as ScrollLink } from 'react-scroll';
 
 const SiderBar = styled.div`
   background: #151418;
@@ -38,7 +39,15 @@ export const NavMenu = styled.div`
   }
 `;
 
+export const NavLink = styled(ScrollLink)`
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.7rem;
 
+  &:hover {
+    color: rgb(119, 119, 121);
+  }
+`;
 
 
 
