@@ -1,14 +1,15 @@
 import React, {useState} from 'react';
-import Dropdown from '../'
+import Dropdown from '../DropdownNav/DropdownNav';
+
 
 class DeveloperManagerArtist extends React.Component {
 
 
 
   render() {
-    const nameElement = '<CraigBarkley.com />';
+   
     return (
-      <div>{nameElement}</div>
+      
     )
   }
 }
