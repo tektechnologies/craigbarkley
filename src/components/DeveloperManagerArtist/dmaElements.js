@@ -34,7 +34,21 @@ export const DmaRight =  styled.``;
 
 export const Image = styled.img``;
 
-const ScrollAnimation = keyframes``;
+const ScrollAnimation =  keyframes`
+0%,
+20%,
+50%,
+80%,
+100% {
+  transform: translateY(0);
+}
+40% {
+  transform: translateY(-20px);
+}
+60% {
+  transform: translateY(-10px);
+}
+`;
 
 export const ScrollDown = styled(LinkScroll)` 
   display: flex;
