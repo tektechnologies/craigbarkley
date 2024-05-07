@@ -31,11 +31,11 @@ export const DmaWrapper = styled.div`
   flex-direction: row;
 `;
 
-export const DmaLeft = styled.``;
+export const DmaLeft = styled.div``;
 
 export const DmaRight =  styled.div`
   flex: 1;
-  justify-content: center'
+  justify-content: center
   display: flex;
 `;
 
