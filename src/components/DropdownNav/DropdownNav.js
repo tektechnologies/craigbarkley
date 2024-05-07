@@ -1,7 +1,7 @@
-import React from 'react';
-import { FaTimes } from 'react-icons/fa';
-import styled from '@emotion/styled';
-import { Link as ScrollLink } from 'react-scroll';
+import React from "react";
+import { FaTimes } from "react-icons/fa";
+import styled from "@emotion/styled";
+import { Link as ScrollLink } from "react-scroll";
 
 const SiderBar = styled.div`
   background: #151418;
@@ -50,31 +50,26 @@ export const NavLink = styled(ScrollLink)`
 `;
 
 export const NavBtn = styled.div`
-display: flex;
-justify-content: center;
-margin-top: 5rem;
-font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  font-size: 1.7rem;
 `;
-
-
-
-
-
 
 class DropdownNav extends React.Component {
   render() {
-    const {isOpen, toggle} = this.props;
+    const { isOpen, toggle } = this.props;
     return (
       <SiderBar isOpen={isOpen} onClick={toggle}>
         <CloseIcon onClick={toggle} />
+        <NavMenu>
+          <NavLink>Projects</NavLink>
+          <NavLink>About</NavLink>
+          <NavLink>Contact</NavLink>
+        </NavMenu>
+        <NavBtn>Resume</NavBtn>
       </SiderBar>
-      
-
-
-
-
-
-    )
+    );
   }
 }
 
