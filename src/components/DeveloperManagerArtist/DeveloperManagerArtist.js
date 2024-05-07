@@ -1,6 +1,6 @@
 import React from 'react';
 import Dropdown from '../DropdownNav/DropdownNav';
-import Header from '../Header/Header'
+// import Header from '../Header/Header'
 
 
 class DeveloperManagerArtist extends React.Component {
@@ -24,8 +24,8 @@ toggle = () => {
 
   render() {
   
-
-    const {isOpen, showSubtitle, showScrollDown} = this.state;
+    // showSubtitle, showScrollDown ~ WIP
+    const {isOpen, } = this.state;
     console.log(this.state)
 
     return (
