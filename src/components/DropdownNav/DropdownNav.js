@@ -66,12 +66,24 @@ class DropdownNav extends React.Component {
           <NavLink 
             to="projects"
             className="menu-item"
-            onClick={() =>toggle}
+            onClick={toggle}
             >
             Projects
           </NavLink>
-          <NavLink to="about">About</NavLink>
-          <NavLink to="contact">Contact</NavLink>
+          <NavLink 
+            to="about"
+            className="menu-item"
+            onClick={toggle}
+            >
+            About
+            </NavLink>
+          <NavLink
+           to="contact"
+           className="menu-item"
+           onClick={toggle}
+           >
+           Contact
+           </NavLink>
         </NavMenu>
         <NavBtn onClick={toggle}>
           <a
