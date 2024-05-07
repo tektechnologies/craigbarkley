@@ -26,11 +26,18 @@ export const DmaContainter = styled.div`
   }
 `;
 
-export const DmaWrapper = styled.``;
+export const DmaWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
 
 export const DmaLeft = styled.``;
 
-export const DmaRight =  styled.``;
+export const DmaRight =  styled.div`
+  flex: 1;
+  justify-content: center'
+  display: flex;
+`;
 
 export const Image = styled.img`
 height: 300px;
