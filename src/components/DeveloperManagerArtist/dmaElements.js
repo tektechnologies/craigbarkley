@@ -24,5 +24,18 @@ export const DmaContainter = styled.div`
   @media (min-width: 1200px) {
     max-width: 1000px;
   }
-
 `;
+
+export const DmaWrapper = styled.``;
+
+export const DmaLeft = styled.``;
+
+export const DmaRight =  styled.``;
+
+export const Image = styled.img``;
+
+const ScrollAnimation = keyframes``;
+
+export const ScrollDown = styled(LinkScroll)``;
+
+export const ScrollLink = style.div``; 
