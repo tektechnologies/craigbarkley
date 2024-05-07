@@ -36,6 +36,22 @@ export const Image = styled.img``;
 
 const ScrollAnimation = keyframes``;
 
-export const ScrollDown = styled(LinkScroll)``;
+export const ScrollDown = styled(LinkScroll)` 
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+  position: absolute;
+`;
 
-export const ScrollLink = style.div``; 
+export const ScrollLink = styled.div`
+display: flex;
+align-items: center;
+font-size: 1.3rem;
+color: #f6f6f6;
+
+img {
+  height: 35px;
+  width: 35px;
+  margin-left: 6px;
+}
+`; 
