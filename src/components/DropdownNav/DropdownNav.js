@@ -1,7 +1,7 @@
-import React from 'react';
-import { FaTimes } from 'react-icons/fa';
-import styled from '@emotion/styled';
-import { Link as ScrollLink } from 'react-scroll';
+import React from "react";
+import { FaTimes } from "react-icons/fa";
+import styled from "@emotion/styled";
+import { Link as ScrollLink } from "react-scroll";
 
 const SiderBar = styled.div`
   background: #151418;
@@ -50,31 +50,53 @@ export const NavLink = styled(ScrollLink)`
 `;
 
 export const NavBtn = styled.div`
-display: flex;
-justify-content: center;
-margin-top: 5rem;
-font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  font-size: 1.7rem;
 `;
-
-
-
-
-
 
 class DropdownNav extends React.Component {
   render() {
-    const {isOpen, toggle} = this.props;
+    const { isOpen, toggle } = this.props;
     return (
       <SiderBar isOpen={isOpen} onClick={toggle}>
         <CloseIcon onClick={toggle} />
+        <NavMenu>
+          <NavLink 
+            to="projects"
+            className="menu-item"
+            onClick={toggle}
+            >
+            Projects
+          </NavLink>
+          <NavLink 
+            to="about"
+            className="menu-item"
+            onClick={toggle}
+            >
+            About
+            </NavLink>
+          <NavLink
+           to="contact"
+           className="menu-item"
+           onClick={toggle}
+           >
+           Contact
+           </NavLink>
+        </NavMenu>
+        <NavBtn onClick={toggle}>
+          <a
+            className="btn PrimaryBtn"
+            href="https://www.linkedin.com/in/craig-barkley-25017b65/"
+            target="_blanck"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </NavBtn>
       </SiderBar>
-      
-
-
-
-
-
-    )
+    );
   }
 }
 
