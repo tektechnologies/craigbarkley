@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes }from "styled-components";
 import { Link as LinkScroll } from 'react-scroll';
 
 export const DmaContainter = styled.div`
@@ -31,7 +31,40 @@ export const DmaWrapper = styled.div`
   flex-direction: row;
 `;
 
-export const DmaLeft = styled.div``;
+export const DmaLeft = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  flex: 1;
+
+  h1 {
+    font-size: 2.8rem;
+    color: #f6f6f6;
+    opacity: 0.98;
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 1.6rem;
+    color: rgb(119, 119, 121);
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+  p {
+    font-size: 17px;
+    color: #f6f6f6;
+    opacity: 0.85;
+  }
+  @media screen and(max-width: 992px){
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    h5 {
+      min-height: 5rem;
+    }
+  }
+`;
 
 export const DmaRight =  styled.div`
   flex: 1;
@@ -65,6 +98,14 @@ export const ScrollDown = styled(LinkScroll)`
   justify-content: flex-start;
   cursor: pointer;
   position: absolute;
+
+  animation: ${ScrollAnimation} 2s linear 0s infinite;
+
+  @media screen and (max-width: 992px){
+    position: relative;
+    justify-content: center;
+    margin-top: 2rem;
+  }
 `;
 
 export const ScrollLink = styled.div`
