@@ -32,7 +32,10 @@ export const DmaLeft = styled.``;
 
 export const DmaRight =  styled.``;
 
-export const Image = styled.img``;
+export const Image = styled.img`
+height: 300px;
+width: auto;
+`;
 
 const ScrollAnimation =  keyframes`
 0%,
