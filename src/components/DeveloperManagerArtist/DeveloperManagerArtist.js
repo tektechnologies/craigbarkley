@@ -8,7 +8,7 @@ class DeveloperManagerArtist extends React.Component {
 constructor(props){
   super(props);
   this.state ={
-    isOpen: true,
+    isOpen: false,
     showSubtitle: false,
     showScrollDown: false,
   };
