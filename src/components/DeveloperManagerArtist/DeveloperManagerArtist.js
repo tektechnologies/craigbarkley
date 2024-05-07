@@ -26,12 +26,12 @@ toggle = () => {
   
 
     const {isOpen, showSubtitle, showScrollDown} = this.state;
-
+    console.log(this.state)
 
     return (
       <main>
         <Dropdown isOpen={isOpen} toggle={this.toggle} />
-        <Header toggle={this.toggle} />
+        {/* <Header toggle={this.toggle} /> */}
       </main>
     )
   }
