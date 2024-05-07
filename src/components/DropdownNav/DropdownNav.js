@@ -63,24 +63,26 @@ class DropdownNav extends React.Component {
       <SiderBar isOpen={isOpen} onClick={toggle}>
         <CloseIcon onClick={toggle} />
         <NavMenu>
-          <NavLink
+          <NavLink 
             to="projects"
             className="menu-item"
-          >Projects</NavLink>
-          <NavLink
-            to="about"
-          >About</NavLink>
-          <NavLink
-            to="contact"
-          >Contact</NavLink>
+            onClick={() =>toggle}
+            >
+            Projects
+          </NavLink>
+          <NavLink to="about">About</NavLink>
+          <NavLink to="contact">Contact</NavLink>
         </NavMenu>
         <NavBtn onClick={toggle}>
-          className="btn PrimaryBtn"
-          href='https://www.linkedin.com/in/craig-barkley-25017b65/'
-        <a 
-        >
-        Resume
-        </a></NavBtn>
+          <a
+            className="btn PrimaryBtn"
+            href="https://www.linkedin.com/in/craig-barkley-25017b65/"
+            target="_blanck"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </NavBtn>
       </SiderBar>
     );
   }
