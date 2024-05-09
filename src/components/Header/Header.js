@@ -15,7 +15,12 @@ class Header extends React.Component {
             <NavLink className="menu-item" to="contact">Contact</NavLink>
           </NavMenu>
           <NavBtn>
-            <a>Resume</a>
+            <a
+              className='btn PrimaryBtn'
+              href="https://www.linkedin.com/in/craig-barkley-25017b65/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Resume</a>
           </NavBtn>
           <Bars />
         </Nav>
