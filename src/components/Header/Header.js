@@ -3,6 +3,7 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 class Header extends React.Component {
   render() {
+    console.log('this props in header', this.props);
     const { toggle } = this.props;
     return (
       <div>

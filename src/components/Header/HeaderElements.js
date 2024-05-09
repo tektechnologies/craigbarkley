@@ -3,9 +3,9 @@ import { FaBars } from 'react-icons/fa';
 import { Link as ScrollLink } from 'react-scroll';
 import styled from '@emotion/styled';
 
-
+// background: transparent;
 export const Nav = styled.nav`
-  background: transparent;
+  background: rebeccapurple;
   height: 100px;
   display: flex;
   align-items: center;
