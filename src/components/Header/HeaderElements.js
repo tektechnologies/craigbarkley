@@ -12,7 +12,18 @@ export const Nav = styled.nav`
   z-index: 10;
 `;
 
-// export const = styled.``;
+export const NavLink = styled(ScrollLink)`
+  color: rgb(119, 119,121);
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+  &hover {
+    color: #f6f6f6;
+  }
+`;
+
 // export const = styled.``;
 // export const = styled.``;
 // export const = styled.``;
