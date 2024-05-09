@@ -24,7 +24,13 @@ export const NavLink = styled(ScrollLink)`
   }
 `;
 
-// export const = styled.``;
+export const Logo = styled('div')`
+img{
+  width: 47px;
+  height: 47px;
+}
+`;
+
 // export const = styled.``;
 // export const = styled.``;
 // export const = styled.``;
