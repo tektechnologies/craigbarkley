@@ -31,6 +31,16 @@ img{
 }
 `;
 
-// export const = styled.``;
+export const Bars = styled(FaBars)`
+  display: none;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+  @media screen and (max-width: 768px){
+    display: block;
+  }
+`;
+
+
 // export const = styled.``;
 // export const = styled.``;
