@@ -3,6 +3,7 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 class Header extends React.Component {
   render() {
+    const { toggle } = this.props;
     return (
       <div>
         <Nav>
@@ -22,7 +23,7 @@ class Header extends React.Component {
               rel="noopener noreferrer"
             >Resume</a>
           </NavBtn>
-          <Bars />
+          <Bars onClick={toggle}/>
         </Nav>
       </div>
     );
