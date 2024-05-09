@@ -60,7 +60,7 @@ class DropdownNav extends React.Component {
   render() {
     const { isOpen, toggle } = this.props;
     return (
-      <SiderBar isOpen={isOpen} onClick={toggle}>
+      <SiderBar isOpen={isOpen} onClick={() => toggle}>
         <CloseIcon onClick={toggle} />
         <NavMenu>
           <NavLink 

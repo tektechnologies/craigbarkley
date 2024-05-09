@@ -1,6 +1,6 @@
 import React from 'react';
 import Dropdown from '../DropdownNav/DropdownNav';
-// import Header from '../Header/Header'
+import Header from '../Header/Header'
 
 
 class DeveloperManagerArtist extends React.Component {
@@ -31,7 +31,7 @@ toggle = () => {
     return (
       <main>
         <Dropdown isOpen={isOpen} toggle={this.toggle} />
-        {/* <Header toggle={this.toggle} /> */}
+        <Header toggle={this.toggle} />
       </main>
     )
   }
