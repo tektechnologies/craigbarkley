@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <div>
         <Nav>
-          <Logo>
+          <Logo to="/">
             <img />
           </Logo>
           <NavMenu>
