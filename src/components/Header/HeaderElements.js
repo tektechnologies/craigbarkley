@@ -1,4 +1,5 @@
 import { FaBars } from 'react-icons/fa';
+// https://react-icons.github.io/react-icons/search/#q=fabars
 import { Link as ScrollLink } from 'react-scroll';
 import styled from '@emotion/styled';
 
@@ -42,5 +43,16 @@ export const Bars = styled(FaBars)`
 `;
 
 
-// export const = styled.``;
+export const NavMenu = styled.div`
+  display: flex;
+  align-items: center;
+  margin-right: -24px;
+  .menu-item + .menu-item {
+    margin-left: 1rem;
+  }
+  @media screen and (max-width: 768px){
+    display: none;
+  }
+`;
+
 // export const = styled.``;
