@@ -9,7 +9,7 @@ import {
   Image,
   ScrollDown,
   ScrollLink,
-} from './DmaElements';
+} from './DevElements';
 
 
 class DeveloperManagerArtist extends React.Component {
