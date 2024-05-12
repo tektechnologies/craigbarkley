@@ -1,6 +1,15 @@
 import React from 'react';
 import Dropdown from '../DropdownNav/DropdownNav';
-import Header from '../Header/Header'
+import Header from '../Header/Header';
+import {
+  DmaContainter,
+  DmaWrapper,
+  DmaLeft,
+  DmaRight,
+  Image,
+  ScrollDown,
+  ScrollLink,
+} from './DmaElements';
 
 
 class DeveloperManagerArtist extends React.Component {
@@ -32,6 +41,9 @@ toggle = () => {
       <main>
         <Dropdown isOpen={isOpen} toggle={this.toggle} />
         <Header toggle={this.toggle} />
+        <DmaContainter>
+
+        </DmaContainter>
       </main>
     )
   }
