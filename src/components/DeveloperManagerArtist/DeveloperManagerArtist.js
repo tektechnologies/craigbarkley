@@ -6,12 +6,13 @@ import {
   DmaWrapper,
   DmaLeft,
   DmaRight,
-  Image,
-  ScrollDown,
-  ScrollLink,
+  // Image,
+  // ScrollDown,
+  // ScrollLink,
 } from "./DevElements";
-import ScrollAnimation from 'react-animate-on-scroll';
-import { TypeAnimation } from 'react-type-animation'; 
+import { TypeAnimation } from 'react-type-animation';
+import ScrollAnimation from "react-animate-on-scroll";
+import { BsInfinity } from "react-icons/bs";
 
 class DeveloperManagerArtist extends React.Component {
   constructor(props) {
@@ -64,16 +65,18 @@ class DeveloperManagerArtist extends React.Component {
                       'A Kirkwood graduate.', 1000,
                       'A code boot camp Instructor', 1000,
                       'An Instructor at Kirkwood Community College', 1000,
-                      
+
 
 
                     ]}
-
-
+                    speed={50}
+                    deletionSpeed={65}
+                    wrapper="h5"
+                    repeat={Infinity}
                   />
                  }
-
               </ScrollAnimation>
+              
             </DmaLeft>
 
             <DmaRight></DmaRight>
