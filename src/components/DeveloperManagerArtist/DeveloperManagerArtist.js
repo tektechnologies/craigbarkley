@@ -10,6 +10,8 @@ import {
   ScrollDown,
   ScrollLink,
 } from "./DevElements";
+import ScrollAnimation from 'react-animate-on-scroll';
+import { TypeAnimation } from 'react-type-animation'; 
 
 class DeveloperManagerArtist extends React.Component {
   constructor(props) {
@@ -28,8 +30,8 @@ class DeveloperManagerArtist extends React.Component {
   };
 
   render() {
-    // showSubtitle, showScrollDown ~ WIP
-    const { isOpen } = this.state;
+    //  showScrollDown ~ WIP
+    const { isOpen, showSubtitle } = this.state;
     console.log(this.state);
 
     return (
@@ -38,7 +40,42 @@ class DeveloperManagerArtist extends React.Component {
         <Header toggle={this.toggle} />
         <DmaContainter>
           <DmaWrapper>
-            <DmaLeft></DmaLeft>
+            <DmaLeft>
+              <ScrollAnimation animateIn="fadeIn">
+                <TypeAnimation 
+                  cursor={false}
+                  sequence={[
+                    'Hi, I\'m Craig',
+                    () => this.setState({ showSubtitle: true})
+                  ]}
+                  speed={{type: 'keyStrokeDelayInMs', value: 150}}
+                  wrapper="h1"
+                  repeat={0}
+                 / >
+                 {
+                  showSubtitle && 
+                  <TypeAnimation 
+                    cursor={true}
+                    sequence={[
+                      500,
+                      'A Full-Stack Developer',
+                      1000,
+                      'A SIU graduate.', 1000,
+                      'A Kirkwood graduate.', 1000,
+                      'A code boot camp Instructor', 1000,
+                      'An Instructor at Kirkwood Community College', 1000,
+                      
+
+
+                    ]}
+
+
+                  />
+                 }
+
+              </ScrollAnimation>
+            </DmaLeft>
+
             <DmaRight></DmaRight>
           </DmaWrapper>
         </DmaContainter>
