@@ -12,7 +12,6 @@ import {
 } from "./DevElements";
 import { TypeAnimation } from 'react-type-animation';
 import ScrollAnimation from "react-animate-on-scroll";
-import { BsInfinity } from "react-icons/bs";
 
 class DeveloperManagerArtist extends React.Component {
   constructor(props) {
