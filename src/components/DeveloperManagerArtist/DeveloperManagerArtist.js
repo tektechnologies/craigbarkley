@@ -7,11 +7,13 @@ import {
   DmaLeft,
   DmaRight,
   Image,
+  ScrollDown,
   // ScrollDown,
   // ScrollLink,
 } from "./DevElements";
 import { TypeAnimation } from "react-type-animation";
 import ScrollAnimation from "react-animate-on-scroll";
+import { ScrollLink } from "react-scroll";
 
 class DeveloperManagerArtist extends React.Component {
   constructor(props) {
@@ -85,6 +87,15 @@ class DeveloperManagerArtist extends React.Component {
               </ScrollAnimation>
             </DmaRight>
           </DmaWrapper>
+          <ScrollDown>
+            <ScrollLink>
+              Scroll Down
+              <img 
+                src=""
+                alt=""
+                />
+            </ScrollLink>
+          </ScrollDown>
         </DmaContainter>
       </main>
     );
