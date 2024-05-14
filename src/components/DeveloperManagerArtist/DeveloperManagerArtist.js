@@ -8,10 +8,11 @@ import {
   DmaRight,
   Image,
   ScrollDown,
+  ScrollLink, 
 } from "./DevElements";
 import { TypeAnimation } from "react-type-animation";
 import ScrollAnimation from "react-animate-on-scroll";
-import { ScrollLink } from "react-scroll";
+
 
 class DeveloperManagerArtist extends React.Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class DeveloperManagerArtist extends React.Component {
     this.state = {
       isOpen: false,
       showSubtitle: false,
-      showScrollDown: false,
+      showScrollDown: true,
     };
   }
 
@@ -29,6 +30,7 @@ class DeveloperManagerArtist extends React.Component {
     }));
   };
 
+  
   render() {
   
     const { isOpen, showSubtitle, showScrollDown } = this.state;
@@ -47,6 +49,7 @@ class DeveloperManagerArtist extends React.Component {
                   sequence={[
                     "Hi, I'm Craig",
                     () => this.setState({ showSubtitle: true }),
+                    // () => this.setState({ showScrollDown: true }),
                   ]}
                   speed={{ type: "keyStrokeDelayInMs", value: 150 }}
                   wrapper="h1"
@@ -57,21 +60,19 @@ class DeveloperManagerArtist extends React.Component {
                     cursor={true}
                     sequence={[
                       500,
-                      // "A Full-Stack Developer",
-                      // 1000,
-                      // "A SIU graduate.",
-                      // 1000,
-                      // "A Kirkwood graduate.",
-                      // 1000,
-                      // "A DeltaV Code Boot Camp graduate",
-                      // 1000,
-                      // "A Technology Instructor at Kirkwood Community College",
-                      // 1000,
+                      "A Full-Stack Developer",
+                      1000,
+                      "A SIU graduate.",
+                      1000,
+                      "A Kirkwood graduate.",
+                      1000,
+                      "A DeltaV Code Boot Camp graduate",
+                      1000,
+                      "A Technology Instructor at Kirkwood Community College",
+                      1000,
                       "I am a Veteran.",
                       1000,
-                      () => this.setState({showScrollDown : true}),
-                      1000,
-                      
+                      // () => this.setState({ showScrollDown: true }),
                     ]}
                     speed={50}
                     deletionSpeed={65}
@@ -91,16 +92,17 @@ class DeveloperManagerArtist extends React.Component {
               </ScrollAnimation>
             </DmaRight>
           </DmaWrapper>
-          {showScrollDown && (
-            <ScrollAnimation animateIn="flipInX" offset={0}>
-              <ScrollDown to="projects" id="">
+
+          <ScrollAnimation animateIn="fadeIn" offset={0}>
+              <ScrollDown to="projects" id="scrollDown">
                 <ScrollLink>
                   Scroll Down
-                  <img src="/scroll-down.svg" alt="white scroll icon" />
+                  <img 
+                    src="/scroll-down.svg"
+                    alt="scroll icon" />
                 </ScrollLink>
               </ScrollDown>
             </ScrollAnimation>
-          )}
         </DmaContainter>
       </main>
     );
