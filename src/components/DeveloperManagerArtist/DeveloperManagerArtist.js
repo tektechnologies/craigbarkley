@@ -6,11 +6,11 @@ import {
   DmaWrapper,
   DmaLeft,
   DmaRight,
-  // Image,
-  // ScrollDown,
-  // ScrollLink,
+  Image,
+  ScrollDown,
+  ScrollLink,
 } from "./DevElements";
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 import ScrollAnimation from "react-animate-on-scroll";
 
 class DeveloperManagerArtist extends React.Component {
@@ -30,8 +30,7 @@ class DeveloperManagerArtist extends React.Component {
   };
 
   render() {
-    //  showScrollDown ~ WIP
-    const { isOpen, showSubtitle } = this.state;
+    const { isOpen, showSubtitle, showScrollDown } = this.state;
     console.log(this.state);
 
     return (
@@ -42,44 +41,60 @@ class DeveloperManagerArtist extends React.Component {
           <DmaWrapper>
             <DmaLeft>
               <ScrollAnimation animateIn="fadeIn">
-                <TypeAnimation 
+                <TypeAnimation
                   cursor={false}
                   sequence={[
-                    'Hi, I\'m Craig',
-                    () => this.setState({ showSubtitle: true})
+                    "Hi, I'm Craig",
+                    () => this.setState({ showSubtitle: true }),
+                    // () => this.setState({ showScrollDown: true }),
                   ]}
-                  speed={{type: 'keyStrokeDelayInMs', value: 150}}
+                  speed={{ type: "keyStrokeDelayInMs", value: 150 }}
                   wrapper="h1"
                   repeat={0}
-                 / >
-                 {
-                  showSubtitle && 
-                  <TypeAnimation 
+                />
+                {showSubtitle && (
+                  <TypeAnimation
                     cursor={true}
                     sequence={[
                       500,
-                      'A Full-Stack Developer',
+                      "A Full-Stack Developer",
                       1000,
-                      'A SIU graduate.', 1000,
-                      'A Kirkwood graduate.', 1000,
-                      'A code boot camp Instructor', 1000,
-                      'An Instructor at Kirkwood Community College', 1000,
-
-
-
+                      "A SIU graduate.",
+                      1000,
+                      "A Kirkwood graduate.",
+                      1000,
+                      "A DeltaV Code Boot Camp graduate",
+                      1000,
+                      "A Technology Instructor at Kirkwood Community College",
+                      1000,
+                      () => this.setState({ showScrollDown: true }),
                     ]}
                     speed={50}
                     deletionSpeed={65}
                     wrapper="h5"
                     repeat={Infinity}
                   />
-                 }
+                )}
               </ScrollAnimation>
-              
             </DmaLeft>
 
-            <DmaRight></DmaRight>
+            <DmaRight>
+              <ScrollAnimation animateIn="fadeIn">
+                <Image src="/man-svgrepo-com.svg" alt="man" />
+              </ScrollAnimation>
+            </DmaRight>
           </DmaWrapper>
+
+          {showScrollDown && (
+            <ScrollAnimation animateIn="fadeIn" offset={0}>
+              <ScrollDown to="projects" id="scrollDown">
+                <ScrollLink>
+                  Scroll Down
+                  <img src="/scroll-down.svg" alt="scroll icon" />
+                </ScrollLink>
+              </ScrollDown>
+            </ScrollAnimation>
+          )}
         </DmaContainter>
       </main>
     );
