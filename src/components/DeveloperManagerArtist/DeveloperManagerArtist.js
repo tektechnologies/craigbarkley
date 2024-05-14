@@ -30,7 +30,7 @@ class DeveloperManagerArtist extends React.Component {
   };
 
   render() {
-    //   ~ WIP
+  
     const { isOpen, showSubtitle, showScrollDown } = this.state;
     console.log(this.state);
 
@@ -57,18 +57,21 @@ class DeveloperManagerArtist extends React.Component {
                     cursor={true}
                     sequence={[
                       500,
-                      "A Full-Stack Developer",
+                      // "A Full-Stack Developer",
+                      // 1000,
+                      // "A SIU graduate.",
+                      // 1000,
+                      // "A Kirkwood graduate.",
+                      // 1000,
+                      // "A DeltaV Code Boot Camp graduate",
+                      // 1000,
+                      // "A Technology Instructor at Kirkwood Community College",
+                      // 1000,
+                      "I am a Veteran.",
                       1000,
-                      "A SIU graduate.",
+                      () => this.setState({showScrollDown : true}),
                       1000,
-                      "A Kirkwood graduate.",
-                      1000,
-                      "A DeltaV Code Boot Camp graduate",
-                      1000,
-                      "A Technology Instructor at Kirkwood Community College",
-                      1000,
-                      "I am a Veteran",
-                      1000,
+                      
                     ]}
                     speed={50}
                     deletionSpeed={65}
@@ -80,8 +83,11 @@ class DeveloperManagerArtist extends React.Component {
             </DmaLeft>
 
             <DmaRight>
-              <ScrollAnimation>
-                <Image />
+              <ScrollAnimation animateIn="fadeIn">
+                <Image 
+                  src="/man-svgrepo-com.svg"
+                  alt="man"
+                />
               </ScrollAnimation>
             </DmaRight>
           </DmaWrapper>
