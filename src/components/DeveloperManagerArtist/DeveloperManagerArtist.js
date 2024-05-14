@@ -62,8 +62,9 @@ class DeveloperManagerArtist extends React.Component {
                       1000,
                       'A SIU graduate.', 1000,
                       'A Kirkwood graduate.', 1000,
-                      'A code boot camp Instructor', 1000,
-                      'An Instructor at Kirkwood Community College', 1000,
+                      'A DeltaV Code Boot Camp graduate', 1000,
+                      'A Technology Instructor at Kirkwood Community College', 1000,
+                      'I am a Veteran', 1000,
 
 
 
