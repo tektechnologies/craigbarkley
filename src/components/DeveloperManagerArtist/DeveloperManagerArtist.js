@@ -46,7 +46,7 @@ class DeveloperManagerArtist extends React.Component {
                   sequence={[
                     "Hi, I'm Craig",
                     () => this.setState({ showSubtitle: true }),
-                    () => this.setState({ showScrollDown: true }),
+                    // () => this.setState({ showScrollDown: true }),
                   ]}
                   speed={{ type: "keyStrokeDelayInMs", value: 150 }}
                   wrapper="h1"
@@ -67,9 +67,7 @@ class DeveloperManagerArtist extends React.Component {
                       1000,
                       "A Technology Instructor at Kirkwood Community College",
                       1000,
-                      "I am a Veteran.",
-                      1000,
-                      // () => this.setState({ showScrollDown: true }),
+                      () => this.setState({ showScrollDown: true }),
                     ]}
                     speed={50}
                     deletionSpeed={65}
