@@ -8,8 +8,6 @@ import {
   DmaRight,
   Image,
   ScrollDown,
-  // ScrollDown,
-  // ScrollLink,
 } from "./DevElements";
 import { TypeAnimation } from "react-type-animation";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -33,7 +31,7 @@ class DeveloperManagerArtist extends React.Component {
 
   render() {
     //   ~ WIP
-    const { isOpen, showSubtitle,showScrollDown } = this.state;
+    const { isOpen, showSubtitle, showScrollDown } = this.state;
     console.log(this.state);
 
     return (
@@ -87,24 +85,16 @@ class DeveloperManagerArtist extends React.Component {
               </ScrollAnimation>
             </DmaRight>
           </DmaWrapper>
-          {
-            showScrollDown && <ScrollAnimation
-              animateIn="flipInX"
-              offset={0}
-              >
-
-
+          {showScrollDown && (
+            <ScrollAnimation animateIn="flipInX" offset={0}>
+              <ScrollDown to="projects" id="">
+                <ScrollLink>
+                  Scroll Down
+                  <img src="/scroll-down.svg" alt="white scroll icon" />
+                </ScrollLink>
+              </ScrollDown>
             </ScrollAnimation>
-          }
-          <ScrollDown>
-            <ScrollLink>
-              Scroll Down
-              <img 
-                src=""
-                alt=""
-                />
-            </ScrollLink>
-          </ScrollDown>
+          )}
         </DmaContainter>
       </main>
     );
