@@ -8,11 +8,10 @@ import {
   DmaRight,
   Image,
   ScrollDown,
-  ScrollLink, 
+  ScrollLink,
 } from "./DevElements";
 import { TypeAnimation } from "react-type-animation";
 import ScrollAnimation from "react-animate-on-scroll";
-
 
 class DeveloperManagerArtist extends React.Component {
   constructor(props) {
@@ -20,7 +19,7 @@ class DeveloperManagerArtist extends React.Component {
     this.state = {
       isOpen: false,
       showSubtitle: false,
-      showScrollDown: true,
+      showScrollDown: false,
     };
   }
 
@@ -30,9 +29,7 @@ class DeveloperManagerArtist extends React.Component {
     }));
   };
 
-  
   render() {
-  
     const { isOpen, showSubtitle, showScrollDown } = this.state;
     console.log(this.state);
 
@@ -49,7 +46,7 @@ class DeveloperManagerArtist extends React.Component {
                   sequence={[
                     "Hi, I'm Craig",
                     () => this.setState({ showSubtitle: true }),
-                    // () => this.setState({ showScrollDown: true }),
+                    () => this.setState({ showScrollDown: true }),
                   ]}
                   speed={{ type: "keyStrokeDelayInMs", value: 150 }}
                   wrapper="h1"
@@ -85,24 +82,21 @@ class DeveloperManagerArtist extends React.Component {
 
             <DmaRight>
               <ScrollAnimation animateIn="fadeIn">
-                <Image 
-                  src="/man-svgrepo-com.svg"
-                  alt="man"
-                />
+                <Image src="/man-svgrepo-com.svg" alt="man" />
               </ScrollAnimation>
             </DmaRight>
           </DmaWrapper>
 
-          <ScrollAnimation animateIn="fadeIn" offset={0}>
+          {showScrollDown && (
+            <ScrollAnimation animateIn="fadeIn" offset={0}>
               <ScrollDown to="projects" id="scrollDown">
                 <ScrollLink>
                   Scroll Down
-                  <img 
-                    src="/scroll-down.svg"
-                    alt="scroll icon" />
+                  <img src="/scroll-down.svg" alt="scroll icon" />
                 </ScrollLink>
               </ScrollDown>
             </ScrollAnimation>
+          )}
         </DmaContainter>
       </main>
     );
