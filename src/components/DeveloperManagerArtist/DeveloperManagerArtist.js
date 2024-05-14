@@ -6,11 +6,11 @@ import {
   DmaWrapper,
   DmaLeft,
   DmaRight,
-  // Image,
+  Image,
   // ScrollDown,
   // ScrollLink,
 } from "./DevElements";
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 import ScrollAnimation from "react-animate-on-scroll";
 
 class DeveloperManagerArtist extends React.Component {
@@ -42,44 +42,48 @@ class DeveloperManagerArtist extends React.Component {
           <DmaWrapper>
             <DmaLeft>
               <ScrollAnimation animateIn="fadeIn">
-                <TypeAnimation 
+                <TypeAnimation
                   cursor={false}
                   sequence={[
-                    'Hi, I\'m Craig',
-                    () => this.setState({ showSubtitle: true})
+                    "Hi, I'm Craig",
+                    () => this.setState({ showSubtitle: true }),
                   ]}
-                  speed={{type: 'keyStrokeDelayInMs', value: 150}}
+                  speed={{ type: "keyStrokeDelayInMs", value: 150 }}
                   wrapper="h1"
                   repeat={0}
-                 / >
-                 {
-                  showSubtitle && 
-                  <TypeAnimation 
+                />
+                {showSubtitle && (
+                  <TypeAnimation
                     cursor={true}
                     sequence={[
                       500,
-                      'A Full-Stack Developer',
+                      "A Full-Stack Developer",
                       1000,
-                      'A SIU graduate.', 1000,
-                      'A Kirkwood graduate.', 1000,
-                      'A DeltaV Code Boot Camp graduate', 1000,
-                      'A Technology Instructor at Kirkwood Community College', 1000,
-                      'I am a Veteran', 1000,
-
-
-
+                      "A SIU graduate.",
+                      1000,
+                      "A Kirkwood graduate.",
+                      1000,
+                      "A DeltaV Code Boot Camp graduate",
+                      1000,
+                      "A Technology Instructor at Kirkwood Community College",
+                      1000,
+                      "I am a Veteran",
+                      1000,
                     ]}
                     speed={50}
                     deletionSpeed={65}
                     wrapper="h5"
                     repeat={Infinity}
                   />
-                 }
+                )}
               </ScrollAnimation>
-              
             </DmaLeft>
 
-            <DmaRight></DmaRight>
+            <DmaRight>
+              <ScrollAnimation>
+                <Image />
+              </ScrollAnimation>
+            </DmaRight>
           </DmaWrapper>
         </DmaContainter>
       </main>
