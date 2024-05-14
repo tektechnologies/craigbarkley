@@ -32,8 +32,8 @@ class DeveloperManagerArtist extends React.Component {
   };
 
   render() {
-    //  showScrollDown ~ WIP
-    const { isOpen, showSubtitle } = this.state;
+    //   ~ WIP
+    const { isOpen, showSubtitle,showScrollDown } = this.state;
     console.log(this.state);
 
     return (
@@ -87,6 +87,15 @@ class DeveloperManagerArtist extends React.Component {
               </ScrollAnimation>
             </DmaRight>
           </DmaWrapper>
+          {
+            showScrollDown && <ScrollAnimation
+              animateIn="flipInX"
+              offset={0}
+              >
+
+
+            </ScrollAnimation>
+          }
           <ScrollDown>
             <ScrollLink>
               Scroll Down
