@@ -59,11 +59,11 @@ class DeveloperManagerArtist extends React.Component {
                       500,
                       "A Full-Stack Developer",
                       1000,
-                      "A SIU graduate.",
+                      "A Southern Illinois University graduate.",
                       1000,
-                      "A Kirkwood graduate.",
+                      "A Kirkwood Community College graduate.",
                       1000,
-                      "A DeltaV Code Boot Camp graduate",
+                      "A DeltaV Code Boot Camp graduate.",
                       1000,
                       "A Technology Instructor at Kirkwood Community College",
                       1000,
@@ -87,7 +87,7 @@ class DeveloperManagerArtist extends React.Component {
 
           {showScrollDown && (
             <ScrollAnimation animateIn="fadeIn" offset={0}>
-              <ScrollDown to="projects" id="scrollDown">
+              <ScrollDown to="projects" id="scrollDownToProjects">
                 <ScrollLink>
                   Scroll Down
                   <img src="/scroll-down.svg" alt="scroll icon" />
