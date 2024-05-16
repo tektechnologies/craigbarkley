@@ -65,8 +65,10 @@ class DeveloperManagerArtist extends React.Component {
                       1000,
                       "A DeltaV Code Boot Camp graduate.",
                       1000,
-                      "A Technology Instructor at Kirkwood Community College",
+                      "A Manager and Artist",
                       1000,
+                      // "A Technology Instructor at Kirkwood Community College",
+                      // 1000,
                       () => this.setState({ showScrollDown: true }),
                     ]}
                     speed={50}
@@ -80,7 +82,7 @@ class DeveloperManagerArtist extends React.Component {
 
             <DmaRight>
               <ScrollAnimation animateIn="fadeIn">
-                <Image src="/man-svgrepo-com.svg" alt="man" />
+                <Image src="/craig-Emoji.png" alt="man" />
               </ScrollAnimation>
             </DmaRight>
           </DmaWrapper>

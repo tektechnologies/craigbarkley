@@ -1,10 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+/* https://fonts.google.com/selection/embed */
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafaff;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+main {
+  background: #151418;
+  background-image: url(../public/blob-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  transition: 0.2s ease-in;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+/* buttons */
+.btn {}
+.btn-shadow {}
+.btn-shadow:hover{}
+.PrimaryBtn {}
+.SecondaryBtn:hover {}
+
+/* Layout  */
+.Container {}
+.BigCard {}
+.AboutBio {}
+.tagline2 {}
+.SectionTitle {}
+.ProjectWrapper{}
+
+
+@media (max-width: 1000px) {
+  .Container {
+    padding: 0;
+  }
+}
