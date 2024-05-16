@@ -19,3 +19,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  background: #151418;
+  background-image: url(../public/blob-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
