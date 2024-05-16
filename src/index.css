@@ -26,3 +26,10 @@ main {
   background-size: cover;
   width: 100%;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  transition: 0.2s ease-in;
+}

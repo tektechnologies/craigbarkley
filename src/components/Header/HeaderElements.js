@@ -5,7 +5,7 @@ import styled from '@emotion/styled';
 
 // background: transparent;
 export const Nav = styled.nav`
-  background: rebeccapurple;
+  background: transparent;
   height: 100px;
   display: flex;
   align-items: center;
