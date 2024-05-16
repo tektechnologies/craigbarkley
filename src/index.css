@@ -67,3 +67,10 @@ video {
   display: block;
   max-width: 100%;
 }
+/* buttons */
+.btn {}
+.btn-shadow {}
+.btn-shadow:hover{}
+.PrimaryBtn {}
+.SecondaryBtn:hover {}
+
