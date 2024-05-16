@@ -81,3 +81,10 @@ video {
 .tagline2 {}
 .SectionTitle {}
 .ProjectWrapper{}
+
+
+@media (max-width: 1000px) {
+  .Container {
+    padding: 0;
+  }
+}
