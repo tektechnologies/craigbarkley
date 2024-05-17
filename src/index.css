@@ -76,7 +76,7 @@ video {
 
 /* Layout  */
 .Container {
-  max-width: 100px;
+  max-width: 1000px;
   padding-right: 1rem;
   padding-left: 1rem;
   width: 90%;
@@ -86,14 +86,16 @@ video {
 .BigCard {}
 .AboutBio {}
 .tagline2 {}
+
 .SectionTitle {
   font-size: 28px;
   color: #151418;
   font-weight: 700;
   margin-bottom: 3.5rem;
 }
+
 .ClientWrapper{
-  margin-top: -1rem;
+  /* margin-top: -1rem; */
 }
 
 
