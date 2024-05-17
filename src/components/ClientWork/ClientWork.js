@@ -22,13 +22,10 @@ class ClientWork extends Component {
         fill="#151418ff"
         transform="rotate(-180 720 200"
         ></path>
-
-
         </svg>
-
-
-
-        <div>ClientWork</div>
+        <div className="ProjectWrapper" id="clients">
+        
+        </div>
         <ClientCard />
       </>
       
