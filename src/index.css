@@ -75,7 +75,14 @@ video {
 .SecondaryBtn:hover {}
 
 /* Layout  */
-.Container {}
+.Container {
+  max-width: 100px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
 .BigCard {}
 .AboutBio {}
 .tagline2 {}
