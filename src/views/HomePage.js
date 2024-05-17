@@ -1,6 +1,6 @@
 import React from 'react';
 import DeveloperManagerArtist from '../components/DeveloperManagerArtist/DeveloperManagerArtist';
-// import ClientWork from '../components/ClientWork';
+import ClientWork from '../components/ClientWork/ClientWork';
 // import About from '../components/About/About';
 // import Contact from '../components/Contact/Contact';
 // import Footer from '../components/Footer/Footer';
@@ -15,8 +15,8 @@ class HomePage extends React.Component {
     return (
      <>
       <DeveloperManagerArtist />
-      {/* <ClientWork />
-      <About />
+       <ClientWork />
+     {/* <About />
       <Contact />
       <SocialIcon />
       <Footer />
