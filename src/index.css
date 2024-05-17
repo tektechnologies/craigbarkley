@@ -86,8 +86,15 @@ video {
 .BigCard {}
 .AboutBio {}
 .tagline2 {}
-.SectionTitle {}
-.ClientWrapper{}
+.SectionTitle {
+  font-size: 28px;
+  color: #151418;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+}
+.ClientWrapper{
+  margin-top: -1rem;
+}
 
 
 @media (max-width: 1000px) {
