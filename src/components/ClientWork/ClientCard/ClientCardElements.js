@@ -15,4 +15,18 @@ export const Card = styled.div`
     border-bottom: 0;
     padding-bottom: 0;
   }
-`
+`;
+
+export const CardLeft = styled.div`
+  justify-self: center;
+  height: 100%;
+  img{
+    object-fit: cover;
+  }
+`;
+export const CardRight = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
