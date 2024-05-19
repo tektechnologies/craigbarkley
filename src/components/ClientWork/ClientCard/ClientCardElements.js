@@ -56,3 +56,12 @@ export const BtnGroup = styled.div`
   display: flex;
   align-items: center;
 `;
+
+export const TechCardContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media (mid-width: 992px){
+    justify-content: flex-start;
+  }
+`;
