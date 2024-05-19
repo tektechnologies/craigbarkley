@@ -7,3 +7,11 @@
 - Create a portfolio of work for current and future opportunities and project completions.
 - Refactor functional components into class based components to futher my understanding of how state and React methods work within the library.
 - Combine multiple resources into one project to showcase an architectural design of React and multiple source code integration.
+
+## Resources
+
+- Resource one live site <https://salesp07.github.io/>
+
+- Resource two live site <https://sajib.vercel.app/>
+
+- Resource three live site <https://vinayaksingh.com/>
