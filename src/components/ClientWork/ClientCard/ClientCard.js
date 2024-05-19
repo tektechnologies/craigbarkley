@@ -29,14 +29,16 @@ class ClientCard extends React.Component {
                   ))}
                 </TechCardContainer>
                 <BtnGroup>
-                {list.github_url.length > 0 && (
-                  <a 
-                    className="btn SecondaryBtn btn-shadow"
-                  >
-                    Github
-                  </a>
-                )}
-
+                  {list.github_url.length > 0 && (
+                    <a
+                      className="btn SecondaryBtn btn-shadow"
+                      href={list.github_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Github
+                    </a>
+                  )}
                 </BtnGroup>
               </CardRight>
             </Card>
