@@ -1,6 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { ClientList } from '../../../'
 
- class ClientCard extends Component {
+
+
+
+
+ class ClientCard extends React.Component {
   render() {
     return (
       <div>ClientCard</div>
