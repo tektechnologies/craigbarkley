@@ -9,7 +9,7 @@ class Header extends React.Component {
       <div>
         <Nav>
           <Logo to="/">
-            <img src='/craig-Emoji.png' alt='logo' />
+            <img src='/githubicon.png' alt='logo' />
           </Logo>
           <NavMenu>
             <NavLink className="menu-item" to="projects">Projects</NavLink>
