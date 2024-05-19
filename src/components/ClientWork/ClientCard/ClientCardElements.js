@@ -50,3 +50,9 @@ export const CardRight = styled.div`
     margin-top: 1rem;
   }
 `;
+
+export const BtnGroup = styled.div`
+  height: 70px;
+  display: flex;
+  align-items: center;
+`;
