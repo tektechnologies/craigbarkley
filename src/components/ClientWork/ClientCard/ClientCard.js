@@ -22,7 +22,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
           <ScrollAnimation animateIn="fadeInLeft" key={index}>
             <Card>
               <CardLeft>
-
+                <img src={list.img} alt={list.name} />
               </CardLeft>
               <CardRight>
 
