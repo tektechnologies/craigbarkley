@@ -82,7 +82,7 @@ class DeveloperManagerArtist extends React.Component {
 
             <DmaRight>
               <ScrollAnimation animateIn="fadeIn">
-                <Image src="/craig-Emoji.png" alt="man" />
+                <Image src="/githubicon.png" alt="man" />
               </ScrollAnimation>
             </DmaRight>
           </DmaWrapper>
