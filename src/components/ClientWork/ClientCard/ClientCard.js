@@ -28,7 +28,16 @@ class ClientCard extends React.Component {
                     <TechCard key={index}>{tech}</TechCard>
                   ))}
                 </TechCardContainer>
-                <BtnGroup></BtnGroup>
+                <BtnGroup>
+                {list.github_url.length > 0 && (
+                  <a 
+                    className="btn SecondaryBtn btn-shadow"
+                  >
+                    Github
+                  </a>
+                )}
+
+                </BtnGroup>
               </CardRight>
             </Card>
           </ScrollAnimation>
