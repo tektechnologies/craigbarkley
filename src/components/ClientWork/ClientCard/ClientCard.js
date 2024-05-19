@@ -17,7 +17,20 @@ import ScrollAnimation from 'react-animate-on-scroll';
  class ClientCard extends React.Component {
   render() {
     return (
-      <div>ClientCard</div>
+      <>
+        ClientList.map((list, index) => (
+          <ScrollAnimation>
+            <Card>
+              <CardLeft>
+
+              </CardLeft>
+              <CardRight>
+                
+              </CardRight>
+            </Card>
+          </ScrollAnimation>
+        ))
+      </>
     )
   }
 }
