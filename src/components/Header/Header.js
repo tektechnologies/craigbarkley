@@ -12,7 +12,7 @@ class Header extends React.Component {
             <img src='/githubicon.png' alt='logo' />
           </Logo>
           <NavMenu>
-            <NavLink className="menu-item" to="projects">Projects</NavLink>
+            <NavLink className="menu-item" to="clients">Projects</NavLink>
             <NavLink className="menu-item" to="about">About</NavLink>
             <NavLink className="menu-item" to="contact">Contact</NavLink>
           </NavMenu>

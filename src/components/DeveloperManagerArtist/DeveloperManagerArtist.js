@@ -89,7 +89,7 @@ class DeveloperManagerArtist extends React.Component {
 
           {showScrollDown && (
             <ScrollAnimation animateIn="fadeIn" offset={0}>
-              <ScrollDown to="projects" id="scrollDownToProjects">
+              <ScrollDown to="clients" id="scrollDownToProjects">
                 <ScrollLink>
                   Scroll Down
                   <img src="/scroll-down.svg" alt="scroll icon" />
