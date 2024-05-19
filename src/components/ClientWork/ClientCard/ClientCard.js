@@ -1,5 +1,5 @@
-import React from 'react';
-import { ClientList } from '../../../data/ClientData';
+import React from "react";
+import { ClientList } from "../../../data/ClientData";
 import {
   Card,
   CardLeft,
@@ -7,40 +7,35 @@ import {
   TechCardContainer,
   TechCard,
   BtnGroup,
-} from './ClientCardElements';
-import ScrollAnimation from 'react-animate-on-scroll';
+} from "./ClientCardElements";
+import ScrollAnimation from "react-animate-on-scroll";
 
-
-
-
-
- class ClientCard extends React.Component {
+class ClientCard extends React.Component {
   render() {
     return (
       <>
-       {ClientList.map((list, index) => (
+        {ClientList.map((list, index) => (
           <ScrollAnimation animateIn="fadeInLeft" key={index}>
             <Card>
               <CardLeft>
                 <img src={list.img} alt={list.name} />
               </CardLeft>
               <CardRight>
-              <h4>{list.title}</h4>
-              <p></p>
-              <TechCardContainer>
-
-              </TechCardContainer>
-              <BtnGroup>
-
-              </BtnGroup>
+                <h4>{list.title}</h4>
+                <p>{list.description}</p>
+                <TechCardContainer>
+                  {list.tech_stack.map((tech, index) => (
+                    <TechCard key={index}>{tech}</TechCard>
+                  ))}
+                </TechCardContainer>
+                <BtnGroup></BtnGroup>
               </CardRight>
             </Card>
           </ScrollAnimation>
         ))}
       </>
-    )
+    );
   }
 }
-
 
 export default ClientCard;
