@@ -65,3 +65,18 @@ export const TechCardContainer = styled.div`
     justify-content: flex-start;
   }
 `;
+
+export const TechCard = styled.div`
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(0,0,0,0.815);
+  cursor: default;
+  box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.6);
+`;
