@@ -68,10 +68,25 @@ video {
   max-width: 100%;
 }
 /* buttons */
-.btn {}
+.btn {
+  border-radius:8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
+  outline: none;
+}
+
 .btn-shadow {}
 .btn-shadow:hover{}
-.PrimaryBtn {}
+
+.PrimaryBtn {
+  padding: 12px 20px;
+  border: none;
+  background: rgb(203,108,181);
+  color: whitesmoke;
+
+}
+
 .SecondaryBtn:hover {}
 
 /* Layout  */
