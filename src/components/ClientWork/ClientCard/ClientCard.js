@@ -1,5 +1,6 @@
 import React from 'react';
-import { ClientList } from '../../../'
+import { ClientList } from '../../../data/ClientData';
+
 
 
 
