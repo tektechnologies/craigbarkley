@@ -25,7 +25,14 @@ import ScrollAnimation from 'react-animate-on-scroll';
                 <img src={list.img} alt={list.name} />
               </CardLeft>
               <CardRight>
+              <h4>{list.title}</h4>
+              <p></p>
+              <TechCardContainer>
 
+              </TechCardContainer>
+              <BtnGroup>
+
+              </BtnGroup>
               </CardRight>
             </Card>
           </ScrollAnimation>
