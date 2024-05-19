@@ -39,6 +39,16 @@ class ClientCard extends React.Component {
                       Github
                     </a>
                   )}
+                  {list.demo_url.length > 0 && (
+                    <a
+                      className="btn PrimaryBtn btn-shadow"
+                      href={list.demo_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Live Site
+                    </a>
+                  )}
                 </BtnGroup>
               </CardRight>
             </Card>
