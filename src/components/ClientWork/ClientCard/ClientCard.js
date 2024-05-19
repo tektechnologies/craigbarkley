@@ -18,18 +18,18 @@ import ScrollAnimation from 'react-animate-on-scroll';
   render() {
     return (
       <>
-        ClientList.map((list, index) => (
-          <ScrollAnimation>
+       {ClientList.map((list, index) => (
+          <ScrollAnimation animateIn="fadeInLeft" key={index}>
             <Card>
               <CardLeft>
 
               </CardLeft>
               <CardRight>
-                
+
               </CardRight>
             </Card>
           </ScrollAnimation>
-        ))
+        ))}
       </>
     )
   }
