@@ -5,7 +5,7 @@ export const ClientList = [
     title: "Art Pennington",
     description:
       "Art Pennington (1923-2017) was a legendary baseball player whose achievements transcended the diamond.",
-    tech_stack: ["DNS Setup", "Email Setup", "SEO", "Wix Hosting"],
+    tech_stack: ["DNS Setup", "Email Setup", "SEO", "Wix Hosting","Still in initial build phase, ecommerce set up coming"],
     github_url: "https://github.com/tektechnologies/Art-Pennington-Baseball",
     demo_url: "https://www.artpenningtonbaseball.com/",
   },

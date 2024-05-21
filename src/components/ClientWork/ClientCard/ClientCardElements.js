@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 //https://emotion.sh/docs/styled
+ 
 
 export const Card = styled.div`
   display: grid;
