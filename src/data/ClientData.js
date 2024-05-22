@@ -42,8 +42,8 @@ export const ClientList = [
     description:
       " Central Limestone Company, Inc. is a crushed stone manufacturer supplying local markets with high quality aggregates for Road Base and Surface Courses.",
     tech_stack: ["HTML", "CSS", "JS", "MediaNetWifi Hosting","Logo Design and Client Meetings "],
-    github_url: "https://tektechnologies.github.io/upnorthgetaway/",
-    demo_url: "https://tektechnologies.github.io/upnorthgetaway/",
+    github_url: "https://tektechnologies.github.io/centrallimestone/",
+    demo_url: "https://tektechnologies.github.io/centrallimestone/",
   },
 
 ]
