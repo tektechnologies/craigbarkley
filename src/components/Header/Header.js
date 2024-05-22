@@ -22,7 +22,7 @@ class Header extends React.Component {
               href="https://www.linkedin.com/in/craig-barkley-25017b65/"
               target="_blank"
               rel="noopener noreferrer"
-            >Resume</a>
+            >LinkedIn</a>
           </NavBtn>
           <Bars onClick={toggle}/>
         </Nav>
