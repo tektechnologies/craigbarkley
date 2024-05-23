@@ -1,13 +1,13 @@
 import React from "react";
-import { FooterSection }from "./FooterElement";
+import { FooterSection } from "./FooterElement";
 
 class Footer extends React.Component {
   render() {
     return (
       <>
         <FooterSection>
-        <div className="Container"></div>
-        </FooterSection> 
+          <div className="Container"></div>
+        </FooterSection>
       </>
     );
   }
