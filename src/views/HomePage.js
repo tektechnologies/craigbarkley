@@ -3,7 +3,7 @@ import DeveloperManagerArtist from '../components/DeveloperManagerArtist/Develop
 import ClientWork from '../components/ClientWork/ClientWork';
 // import About from '../components/About/About';
 // import Contact from '../components/Contact/Contact';
-// import Footer from '../components/Footer/Footer';
+import Footer from '../components/Footer/Footer';
 // import SocialIcon from '../components/SocialIcon/SocialIcon';
 // import ScrollToTop from '../components/SocialIcon/ScrollToTop';
 
@@ -18,9 +18,9 @@ class HomePage extends React.Component {
        <ClientWork />
      {/* <About />
       <Contact />
-      <SocialIcon />
+      <SocialIcon />*/}
       <Footer />
-      <ScrollToTop /> */}
+     {/*  <ScrollToTop /> */}
      </>
     )
   }

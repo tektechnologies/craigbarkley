@@ -1,12 +1,15 @@
-import React from 'react';
+import React from "react";
+import { FooterSection }from "./FooterElement";
 
-
-
- class Footer extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
-      <></>
-    )
+      <>
+        <FooterSection>
+        <div className="Container"></div>
+        </FooterSection> 
+      </>
+    );
   }
 }
 
