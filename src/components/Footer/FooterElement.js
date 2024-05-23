@@ -9,5 +9,11 @@ width: 100%;
 height: 250px;
 position: relative;
 
+span {
+  position: absolute;
+  bottom: 4rem;
+  color: #fff;
+}
+
 
 `;
