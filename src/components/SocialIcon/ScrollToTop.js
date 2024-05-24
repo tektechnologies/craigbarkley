@@ -1,5 +1,5 @@
 import React  from 'react';
-import { StyledIconButton, StyledarrowIcon } from './StyleElements';
+import { StyledIconButton, StyledArrowIcon } from './StyleElements';
 import { animateScroll } from 'react-scroll';
 
  class ScrollToTop extends React.Component {
@@ -14,6 +14,7 @@ import { animateScroll } from 'react-scroll';
   }
 
   handleClick() {
+    console.log('handle click fire');
     this.setState({open: false});
     animateScroll.scrollToTop({ duration: 0});
   }
@@ -22,7 +23,14 @@ import { animateScroll } from 'react-scroll';
 
   render() {
     return (
-      <div>ScrollToTop</div>
+      <StyledIconButton
+        size='large'
+        aria-label='scroll to top'
+        onClick={this.handleClick}
+      >
+        <StyledArrowIcon fontSize={40}/>
+
+      </StyledIconButton>
     )
   }
 }
