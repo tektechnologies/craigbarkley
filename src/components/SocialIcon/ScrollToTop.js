@@ -11,12 +11,22 @@ import { animateScroll } from 'react-scroll';
       shouldRender: false,
     };
     this.handleClick = this.handleClick.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
   }
 
   handleClick() {
     console.log('handle click fire');
     this.setState({open: false});
     animateScroll.scrollToTop({ duration: 0});
+  }
+
+  handleScroll() {
+    const scrollThreshold = 500;
+    if(window.scrollY > scrollThreshold){
+      this.setState({ shouldRender : true });
+    } else {
+      this.setState({ shouldRender: false });
+    }
   }
 
 componentDidMount(){
