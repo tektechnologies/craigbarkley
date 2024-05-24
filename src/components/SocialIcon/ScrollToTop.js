@@ -19,7 +19,12 @@ import { animateScroll } from 'react-scroll';
     animateScroll.scrollToTop({ duration: 0});
   }
 
-
+componentDidMount(){
+  window.addEventListener('scroll', this.handleScroll, {passive: true});
+}
+componentWillUnmount(){
+  window.removeEventListener('scroll', this.handleScroll);
+}
 
   render() {
     return (
