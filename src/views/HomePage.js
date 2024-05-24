@@ -5,7 +5,7 @@ import ClientWork from '../components/ClientWork/ClientWork';
 // import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 // import SocialIcon from '../components/SocialIcon/SocialIcon';
-// import ScrollToTop from '../components/SocialIcon/ScrollToTop';
+import ScrollToTop from '../components/SocialIcon/ScrollToTop';
 
 
 
@@ -20,7 +20,7 @@ class HomePage extends React.Component {
       <Contact />
       <SocialIcon />*/}
       <Footer />
-     {/*  <ScrollToTop /> */}
+      <ScrollToTop />
      </>
     )
   }
