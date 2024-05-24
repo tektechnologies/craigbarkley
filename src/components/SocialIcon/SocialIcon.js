@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import SocialContainer from './StyleElements';
 
 class SocialIcon extends React.Component {
   render() {
