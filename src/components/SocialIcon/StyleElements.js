@@ -9,6 +9,7 @@ import{ MdKeyboardArrowUp } from 'react-icons/md';
 export const StyledIconButton = styled(IconButton)`
   position:fixed;
   bottom: 20px;
+  right: 20px;
   color: whitesmoke;
   padding: 10px; 
 `;

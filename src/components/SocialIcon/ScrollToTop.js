@@ -41,7 +41,13 @@ class ScrollToTop extends React.Component {
 
     return (
       shouldRender && (
-        <Tooltip>
+        <Tooltip
+          title="Scroll to top"
+          placement="top"
+          open={open}
+          onOpen={() => this.setState({ open : true})}
+          onClose={() => this.setState({open: false})}
+        >
           <StyledIconButton
             size="large"
             aria-label="scroll to top"
