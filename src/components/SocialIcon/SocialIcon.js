@@ -1,10 +1,22 @@
 import React from 'react';
 import SocialContainer from './StyleElements';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class SocialIcon extends React.Component {
   render() {
     return (
-      <div>SocialIcon</div>
+      <SocialContainer>
+        <ScrollAnimation>
+          <ul>
+            <li>
+              <a></a>
+            </li>
+            <li>
+              <a></a>
+            </li>
+          </ul>
+        </ScrollAnimation>
+      </SocialContainer>
     )
   }
 }
