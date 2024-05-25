@@ -114,9 +114,26 @@ video {
 }
 .BigCard {
   padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: #fff;
 }
-.AboutBio {}
-.tagline2 {}
+.AboutBio {
+  text-align: justify;
+  max-width: 750px;
+  margin: 0 auto;
+  color: #151418;
+  line-height: 1.6;
+}
+.tagline2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
 .SectionTitle {
   font-size: 28px;
@@ -126,7 +143,7 @@ video {
 }
 
 .ClientWrapper{
-  /* margin-top: -1rem; */
+  margin-top: -1rem;
 }
 
 
