@@ -80,7 +80,9 @@ video {
   box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.9);
 }
 
-.btn-shadow:hover{}
+.btn-shadow:hover{
+  box-shadow: 0px 3px 8px rgba(160, 170,180, 0.6);
+}
 
 .PrimaryBtn {
   padding: 12px 20px;
@@ -97,7 +99,9 @@ video {
   margin-right: 1rem;
 }
 
-.SecondaryBtn:hover {}
+.SecondaryBtn:hover {
+  background: #e7f1fa;
+}
 
 /* Layout  */
 .Container {
@@ -108,7 +112,9 @@ video {
   margin-right: auto;
   margin-left: auto;
 }
-.BigCard {}
+.BigCard {
+  padding-top: 3rem;
+}
 .AboutBio {}
 .tagline2 {}
 
