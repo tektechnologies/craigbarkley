@@ -80,7 +80,9 @@ video {
   box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.9);
 }
 
-.btn-shadow:hover{}
+.btn-shadow:hover{
+  box-shadow: 0px 3px 8px rgba(160, 170,180, 0.6);
+}
 
 .PrimaryBtn {
   padding: 12px 20px;
@@ -97,7 +99,9 @@ video {
   margin-right: 1rem;
 }
 
-.SecondaryBtn:hover {}
+.SecondaryBtn:hover {
+  background: #e7f1fa;
+}
 
 /* Layout  */
 .Container {
@@ -108,9 +112,28 @@ video {
   margin-right: auto;
   margin-left: auto;
 }
-.BigCard {}
-.AboutBio {}
-.tagline2 {}
+.BigCard {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: #fff;
+}
+.AboutBio {
+  text-align: justify;
+  max-width: 750px;
+  margin: 0 auto;
+  color: #151418;
+  line-height: 1.6;
+}
+.tagline2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
 .SectionTitle {
   font-size: 28px;
@@ -120,7 +143,7 @@ video {
 }
 
 .ClientWrapper{
-  /* margin-top: -1rem; */
+  margin-top: -1rem;
 }
 
 
