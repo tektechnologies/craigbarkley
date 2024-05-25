@@ -1,18 +1,29 @@
-import {IconButton,  styled} from "@mui/material";
+import { IconButton, styled } from "@mui/material";
 // Tooltip,
-import{ MdKeyboardArrowUp } from 'react-icons/md';
+import { MdKeyboardArrowUp } from "react-icons/md";
 
+const SocialContainer = styled.div`
+  position: fixed;
+  top: 48%;
+  left: 1.5rem;
+  transform: translateY(-50%);
 
-
-
-// const SocialContainer = styled.div``;
+  ul {
+  }
+  .item + .item {
+  }
+  a {
+    &:hover {
+    }
+  }
+`;
 
 export const StyledIconButton = styled(IconButton)`
-  position:fixed;
+  position: fixed;
   bottom: 20px;
   right: 20px;
   color: whitesmoke;
-  padding: 10px; 
+  padding: 10px;
 `;
 
 export const StyledArrowIcon = styled(MdKeyboardArrowUp)`
@@ -21,4 +32,3 @@ export const StyledArrowIcon = styled(MdKeyboardArrowUp)`
   padding: 5px;
   box-shadow: 0px 4px 20px rgba(160, 170, 180, 0.6);
 `;
-
