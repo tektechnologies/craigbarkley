@@ -29,7 +29,7 @@ class HomePage extends React.Component {
 
 
   render() {
-    console.log('modal in state: ',this.state.displayModal);
+    // console.log('modal in state: ',this.state.displayModal);
     return (
      <>
       <DeveloperManagerArtist displayForm={this.displayFormModal} />

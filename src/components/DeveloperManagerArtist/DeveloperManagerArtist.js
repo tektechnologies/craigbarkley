@@ -32,7 +32,7 @@ class DeveloperManagerArtist extends React.Component {
   render() {
     const { isOpen, showSubtitle, showScrollDown } = this.state;
     // console.log(this.state);
-    console.log('modal  props (): ', this.props.displayForm);
+    // console.log('modal  props (): ', this.props.displayForm);
     return (
       <main>
         <Dropdown isOpen={isOpen} toggle={this.toggle} />

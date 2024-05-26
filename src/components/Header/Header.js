@@ -3,7 +3,7 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 class Header extends React.Component {
   render() {
-    console.log('props header', this.props.displayForm);
+    // console.log('props header', this.props.displayForm);
     const { toggle, displayForm } = this.props;
     return (
       <div>
