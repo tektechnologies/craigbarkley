@@ -5,7 +5,7 @@ class ClientWork extends Component {
   render() {
     return (
       <>
-         <svg
+        <svg
           height="100%"
           width="100%"
           id="svg"
@@ -19,14 +19,14 @@ class ClientWork extends Component {
             fill="#151418ff"
             transform="rotate(-180 720 200)"
           ></path>
-        </svg> 
+        </svg>
 
         <div className="ClientWrapper" id="clients">
           <div className="Container">
             <div className="SectionTitle">Client Work</div>
+            <ClientCard />
           </div>
         </div>
-        <ClientCard />
       </>
     );
   }
