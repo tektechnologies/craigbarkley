@@ -87,7 +87,7 @@ video {
 .PrimaryBtn {
   padding: 12px 20px;
   border: none;
-  background: rgb(203,108,181);
+  background: rgb(203,108,181) !important;
   color: whitesmoke;
 
 }

@@ -19,7 +19,7 @@ class HomePage extends React.Component {
     }
   }
 
-  displayAsModal = () => {
+  displayFormModal = () => {
     this.setState({ displayModal: true });
   }
 
@@ -29,14 +29,18 @@ class HomePage extends React.Component {
 
 
   render() {
+    // console.log('modal in state: ',this.state.displayModal);
     return (
      <>
-      <DeveloperManagerArtist />
+      <DeveloperManagerArtist displayForm={this.displayFormModal} />
        <ClientWork />
      {/* <About />
       <Contact />
      */}
-     <SelectedProjectForm />
+      <SelectedProjectForm 
+      show={this.state.displayModal}
+      handleClose={this.handleModalClose}
+      />
       <SocialIcon />
       <Footer />
       <ScrollToTop />
