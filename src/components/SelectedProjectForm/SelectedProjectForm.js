@@ -12,13 +12,9 @@ const SelectedProjectForm = (props) => {
           <Modal.Title>Project Form</Modal.Title>
         </Modal.Header>
 
-        <Modal.Body>
-          {" "}
-         
-          
-        </Modal.Body>
+        <Modal.Body></Modal.Body>
         <Modal.Footer>
-        <Button onClick={props.handleClose} variant="secondary">
+          <Button onClick={props.handleClose} variant="secondary">
             Close
           </Button>
         </Modal.Footer>

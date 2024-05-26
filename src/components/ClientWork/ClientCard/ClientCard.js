@@ -18,7 +18,8 @@ class ClientCard extends React.Component {
           <ScrollAnimation animateIn="fadeInLeft" key={index}>
             <Card>
               <CardLeft>
-                <img src={list.img} alt={list.name} className="ProjectImage" />
+                <img src={list.img} alt={list.name} 
+                />
               </CardLeft>
               <CardRight>
                 <h4>{list.title}</h4>
