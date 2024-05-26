@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   z-index: 10;
 `;
 
@@ -45,8 +45,8 @@ export const Bars = styled(FaBars)`
 
 export const NavMenu = styled.div`
   display: flex;
-  align-items: center;
-  margin-right: -24px;
+  ${'' /* align-items: center; */}
+  ${'' /* margin-right: -24px; */}
   .menu-item + .menu-item {
     margin-left: 1rem;
   }
@@ -56,9 +56,9 @@ export const NavMenu = styled.div`
 `;
 
 export const NavBtn = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: 24px;
+  ${'' /* display: flex; */}
+  ${'' /* align-items: center; */}
+  ${'' /* margin-right: 14px; */}
   @media screen and (max-width: 768px){
     display: none;
   }
