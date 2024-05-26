@@ -39,7 +39,7 @@ class HomePage extends React.Component {
      */}
       <SelectedProjectForm 
       show={this.state.displayModal}
-      handleModalClose={this.handleModalClose}
+      handleClose={this.handleModalClose}
       />
       <SocialIcon />
       <Footer />
