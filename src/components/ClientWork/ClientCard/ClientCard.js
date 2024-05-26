@@ -16,7 +16,7 @@ class ClientCard extends React.Component {
     return (
       <>
         {ClientList.map((list, index) => (
-          <ScrollAnimation animateIn="animate__fadeInLeft" key={index}>
+          <ScrollAnimation animateIn="fadeInLeft" key={index} >
             <Card>
               <CardLeft>
                 <img src={list.img} alt={list.name} className="ImageSize" />
