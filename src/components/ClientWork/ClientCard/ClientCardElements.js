@@ -1,6 +1,4 @@
 import styled from "@emotion/styled";
-//https://emotion.sh/docs/styled
- 
 
 export const Card = styled.div`
   display: grid;
@@ -10,7 +8,7 @@ export const Card = styled.div`
   padding-bottom: 2rem;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0px 5px 15px -3px rgba(0, 0, 0, 0.1),
+  box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
@@ -26,15 +24,18 @@ export const CardLeft = styled.div`
     object-fit: cover;
   }
 `;
+
 export const CardRight = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   h4 {
     font-size: 1.5rem;
     font-weight: 400;
   }
+
   p {
     font-weight: 400;
     max-width: 95%;
@@ -42,6 +43,7 @@ export const CardRight = styled.div`
     margin-bottom: 1rem;
     color: rgba(0, 0, 0, 0.815);
     text-align: center;
+
     @media (min-width: 992px) {
       text-align: start;
     }
@@ -62,7 +64,7 @@ export const TechCardContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  @media (mid-width: 992px){
+  @media (min-width: 992px) {
     justify-content: flex-start;
   }
 `;
@@ -77,7 +79,7 @@ export const TechCard = styled.div`
   justify-content: center;
   font-size: 15px;
   font-weight: 400;
-  color: rgba(0,0,0,0.815);
+  color: rgba(0, 0, 0, 0.815);
   cursor: default;
   box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.6);
 `;
