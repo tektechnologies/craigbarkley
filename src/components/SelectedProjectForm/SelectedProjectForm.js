@@ -10,12 +10,18 @@ const SelectedProjectForm = (props) => {
       <Modal.Dialog>
         <Modal.Header closeButton>
           <Modal.Title>Project Form</Modal.Title>
-          <Button onClick={props.handleClose} variant="secondary">
-            Close
-          </Button>
         </Modal.Header>
 
-        <Modal.Body></Modal.Body>
+        <Modal.Body>
+          {" "}
+         
+          
+        </Modal.Body>
+        <Modal.Footer>
+        <Button onClick={props.handleClose} variant="secondary">
+            Close
+          </Button>
+        </Modal.Footer>
       </Modal.Dialog>
     </Modal>
   );
