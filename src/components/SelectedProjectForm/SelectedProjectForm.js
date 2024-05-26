@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SelectedProjectForm = (props) => {
   console.log('props in form comp: ',props);
