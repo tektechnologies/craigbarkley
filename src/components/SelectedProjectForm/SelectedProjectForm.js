@@ -111,10 +111,10 @@ const SelectedProjectForm = (props) => {
                   <input type="time" id="userLocation" name="userLocation" />
                 </Col>
                 <Col xs={6} md={4}>
-                  <label for="category">Category</label>
+                  <label htmlFor="category">Category</label>
 
-                  <select name="category" id="category">
-                    <option selected disabled>
+                  <select name="category" id="category" defaultValue={'DEFAULT'} >
+                    <option value="DEFAULT" disabled>
                       Choose Project
                     </option>
                     <option value="webSite">Web Site</option>
