@@ -123,22 +123,25 @@ const SelectedProjectForm = (props) => {
                     <option value="logoBranding">Logo Graphics Branding</option>
                   </select>
                 </Col>
-
-                <Col xs={12} md={8}></Col>
               </Row>
             </form>
           </Container>
         </Modal.Body>
         <Modal.Footer>
-          <p>
-            The content and design of this website are provided for
-            informational purposes only and are created by a professional web
-            designer. While every effort is made to ensure the accuracy and
-            quality of the information and design elements, the website designer
-            makes no guarantees, representations, or warranties regarding the
-            currentness, completeness, or suitability of the content for any
-            specific purpose.
-          </p>
+          <Row>
+            <Col xs={12} md={8}>
+              <p>
+                The content and design of this website are provided for
+                informational purposes only and are created by a professional
+                web designer. While every effort is made to ensure the accuracy
+                and quality of the information and design elements, the website
+                designer makes no guarantees, representations, or warranties
+                regarding the currentness, completeness, or suitability of the
+                content for any specific purpose.
+              </p>
+            </Col>
+          </Row>
+
           <Button onClick={props.handleClose} variant="secondary">
             Close
           </Button>
