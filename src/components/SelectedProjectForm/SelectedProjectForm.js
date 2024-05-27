@@ -25,25 +25,31 @@ const SelectedProjectForm = (props) => {
             <input type="text" id="emailAddress" name="emailAddress" />
             <label htmlFor="phoneNumber">Phone Number</label>
             <input type="text" id="phoneNumber" name="phoneNumber" />
-            <label htmlFor="visitForeign">
-              Have you visited a foreign country in the last 7 days
+            <label htmlFor="visitCompetion">
+              Have you contacted another provider in the last 7 days?
             </label>
-            <input type="checkbox" id="visitForeign" name="visitForeign" />
+            <input type="checkbox" id="visitCompetion" name="visitCompetion" />
             <hr />
-            <label htmlFor="visitForeign">Visit Reason</label>
+            <label htmlFor="visitReason">Visit Reason</label>
             <input
               type="textarea"
               rows="4"
               cols="50"
-              id="visitForeign"
-              name="visitForeign"
+              id="visitReason"
+              name="visitReason"
             />
             <hr />
-            <label htmlFor="toolsRequired">Tools Required?</label>
-            <input type="checkbox" id="toolsRequired" name="toolsRequired" />
+            <label htmlFor="instructionRequired">
+              Product Instruction Required?
+            </label>
+            <input
+              type="checkbox"
+              id="instructionRequired"
+              name="instructionRequired"
+            />
             <hr />
-            <label htmlFor="toolReasons">Reasons For Tooling</label>
-            <input type="textarea" id="toolReasoned" name="toolReasoned" />
+            <label htmlFor="instructWhat">Instruction Specifics</label>
+            <input type="textarea" id="instructWhat" name="instructWhat" />
             <hr />
             <label htmlFor="visitDate">Visit Date</label>
             <input type="date" id="visitDate" name="visitDate" />
