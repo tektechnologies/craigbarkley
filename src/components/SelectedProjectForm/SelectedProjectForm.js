@@ -2,25 +2,71 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 const SelectedProjectForm = (props) => {
   console.log("props in form comp: ", props);
 
+
   return (
-    <Modal show={props.show} onHide={props.handleClose}>
+    <Modal 
+    show={props.show}
+    onHide={props.handleClose}
+    className="form-modal"
+    size="xl" 
+    >
       <Modal.Dialog>
         <Modal.Header closeButton>
           <Modal.Title>Project Form</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
-          <form>
-            <label htmlFor="firstName">First Name</label>
+        <Container>
+        <form>
+           
+          <Row>
+          <Col xs={4} md={4}>
+          <label htmlFor="firstName">First Name</label>
             <input type="text" id="firstName" name="firstName" />
+            </Col>
+            <Col xs={4} md={4}>
             <label htmlFor="lastName">Last Name</label>
             <input type="text" id="lastName" name="lastName" />
+            </Col>
+            <Col xs={4} md={4}>
             <label htmlFor="companyName">Company</label>
             <input type="text" id="companyName" name="companyName" />
+            </Col>
+
+
+
+            <Col xs={12} md={8}>
+              .col-xs-12 .col-md-8
+            </Col>
+            <Col xs={6} md={4}>
+              .col-xs-6 .col-md-4
+            </Col>
+          </Row>
+
+          <Row>
+            <Col xs={6} md={4}>
+              .col-xs-6 .col-md-4
+            </Col>
+            <Col xs={6} md={4}>
+              .col-xs-6 .col-md-4
+            </Col>
+            <Col xs={6} md={4}>
+              .col-xs-6 .col-md-4
+            </Col>
+          </Row>
+          </form>
+
+        </Container>
+          
+          
+           
             <label htmlFor="emailAddress">Email</label>
             <input type="text" id="emailAddress" name="emailAddress" />
             <label htmlFor="phoneNumber">Phone Number</label>
@@ -70,7 +116,7 @@ const SelectedProjectForm = (props) => {
               <option value="onlineStore">Online Store</option>
               <option value="logoBranding">Logo Graphics Branding</option>
             </select>
-          </form>
+        
         </Modal.Body>
         <Modal.Footer>
           <p>
