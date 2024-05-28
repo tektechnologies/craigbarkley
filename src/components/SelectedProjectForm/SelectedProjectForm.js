@@ -10,6 +10,9 @@ import { useForm } from 'react-hook-form';
 const SelectedProjectForm = (props) => {
   console.log("props in form comp: ", props);
 
+  const form = useForm();
+  const { register } = form;
+
   return (
     <Modal
       show={props.show}
@@ -28,19 +31,19 @@ const SelectedProjectForm = (props) => {
               <Row>
                 <Col xs={4} md={4}>
                   <label htmlFor="firstName">First Name</label>
-                  <input type="text" id="firstName" name="firstName" />
+                  <input type="text" id="firstName"  {...register('firstName')}/>
                 </Col>
                 <Col xs={4} md={4}>
                   <label htmlFor="lastName">Last Name</label>
-                  <input type="text" id="lastName" name="lastName" />
+                  <input type="text" id="lastName" {...register('lastName')} />
                 </Col>
                 <Col xs={4} md={4}>
                   <label htmlFor="companyName">Company</label>
-                  <input type="text" id="companyName" name="companyName" />
+                  <input type="text" id="companyName"  {...register('companyName')} />
                 </Col>
                 <Col xs={6} md={4}>
                   <label htmlFor="emailAddress">Email</label>
-                  <input type="text" id="emailAddress" name="emailAddress" />
+                  <input type="text" id="emailAddress" {...register('emailAddress')}  />
                 </Col>
                 <Col xs={6} md={4}>
                   <label htmlFor="phoneNumber">Phone Number</label>
