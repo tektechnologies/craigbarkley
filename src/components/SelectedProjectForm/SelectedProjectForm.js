@@ -8,23 +8,22 @@ import Row from "react-bootstrap/Row";
 import { useForm } from "react-hook-form";
 import { DevTool } from "@hookform/devtools";
 
-type FormValues = {
-  firstName : string,
-  lastName : string,
-  companyName : string,
-  emailAddress : string,
-  phoneNumber : string,
-  visitCompetion : string,
-  visitReason : string,
-  instructionRequired : string,
-  instructWhat : string,
-  visitDate : string,
-  startTime : string,
-  endTime : string,
-  userLocation : string,
-  productcategory : string,
-
-};
+// type FormValues = {
+//   firstName : string,
+//   lastName : string,
+//   companyName : string,
+//   emailAddress : string,
+//   phoneNumber : string,
+//   visitCompetion : string,
+//   visitReason : string,
+//   instructionRequired : string,
+//   instructWhat : string,
+//   visitDate : string,
+//   startTime : string,
+//   endTime : string,
+//   userLocation : string,
+//   productcategory : string,
+// };
 
 const SelectedProjectForm = (props) => {
   console.log("props in form comp: ", props);
@@ -32,7 +31,7 @@ const SelectedProjectForm = (props) => {
   const form = useForm();
   const { register, control, handleSubmit } = form;
 
-  const onSubmit = (data: FormValues) => {
+  const onSubmit = (data) => {
     console.log('Form Submitted!', data);
   }
 

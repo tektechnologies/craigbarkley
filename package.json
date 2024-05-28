@@ -10,6 +10,10 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "bootstrap": "^5.3.3",
     "gh-pages": "^5.0.0",
     "react": "^17.0.2",
@@ -22,6 +26,7 @@
     "react-scroll": "^1.8.9",
     "react-type-animation": "^3.0.1",
     "styled-components": "^5.3.11",
+    "typescript": "^5.4.5",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
