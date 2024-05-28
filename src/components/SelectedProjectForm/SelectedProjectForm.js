@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { useForm } from 'react-hook-form';
+import { DevTool } from '@hookform/devtools';
 
 const SelectedProjectForm = (props) => {
   console.log("props in form comp: ", props);
@@ -128,7 +129,11 @@ const SelectedProjectForm = (props) => {
                   </select>
                 </Col>
               </Row>
+              <Row>
+                <button>Submit</button>
+              </Row>
             </form>
+            <DevTool />
           </Container>
         </Modal.Body>
         <Modal.Footer>
