@@ -5,8 +5,8 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import { useForm } from 'react-hook-form';
-import { DevTool } from '@hookform/devtools';
+import { useForm } from "react-hook-form";
+import { DevTool } from "@hookform/devtools";
 
 const SelectedProjectForm = (props) => {
   console.log("props in form comp: ", props);
@@ -32,23 +32,39 @@ const SelectedProjectForm = (props) => {
               <Row>
                 <Col xs={4} md={4}>
                   <label htmlFor="firstName">First Name</label>
-                  <input type="text" id="firstName"  {...register('firstName')}/>
+                  <input
+                    type="text"
+                    id="firstName"
+                    {...register("firstName")}
+                  />
                 </Col>
                 <Col xs={4} md={4}>
                   <label htmlFor="lastName">Last Name</label>
-                  <input type="text" id="lastName" {...register('lastName')} />
+                  <input type="text" id="lastName" {...register("lastName")} />
                 </Col>
                 <Col xs={4} md={4}>
                   <label htmlFor="companyName">Company</label>
-                  <input type="text" id="companyName"  {...register('companyName')} />
+                  <input
+                    type="text"
+                    id="companyName"
+                    {...register("companyName")}
+                  />
                 </Col>
                 <Col xs={6} md={4}>
                   <label htmlFor="emailAddress">Email</label>
-                  <input type="text" id="emailAddress" {...register('emailAddress')}  />
+                  <input
+                    type="text"
+                    id="emailAddress"
+                    {...register("emailAddress")}
+                  />
                 </Col>
                 <Col xs={6} md={4}>
                   <label htmlFor="phoneNumber">Phone Number</label>
-                  <input type="text" id="phoneNumber" {...register('phoneNumber')} />
+                  <input
+                    type="text"
+                    id="phoneNumber"
+                    {...register("phoneNumber")}
+                  />
                 </Col>
 
                 <Col xs={12} md={8}>
@@ -58,7 +74,7 @@ const SelectedProjectForm = (props) => {
                   <input
                     type="checkbox"
                     id="visitCompetion"
-                    {...register('visitCompetion')}
+                    {...register("visitCompetion")}
                   />
                 </Col>
               </Row>
@@ -69,7 +85,7 @@ const SelectedProjectForm = (props) => {
                   <input
                     type="textarea"
                     id="visitReason"
-                    {...register('visitReason')}
+                    {...register("visitReason")}
                   />
                 </Col>
                 <hr />
@@ -80,7 +96,7 @@ const SelectedProjectForm = (props) => {
                   <input
                     type="checkbox"
                     id="instructionRequired"
-                    {...register('instructionRequired')}
+                    {...register("instructionRequired")}
                   />
                 </Col>
                 <hr />
@@ -89,7 +105,7 @@ const SelectedProjectForm = (props) => {
                   <input
                     type="textarea"
                     id="instructWhat"
-                    {...register('instructWhat')}
+                    {...register("instructWhat")}
                   />
                 </Col>
               </Row>
@@ -98,27 +114,41 @@ const SelectedProjectForm = (props) => {
               <Row>
                 <Col xs={4} md={4}>
                   <label htmlFor="visitDate">Visit Date</label>
-                  <input type="date" id="visitDate" {...register('visitDate')} />
-                  
+                  <input
+                    type="date"
+                    id="visitDate"
+                    {...register("visitDate")}
+                  />
                 </Col>
                 <Col xs={4} md={4}>
                   <label htmlFor="startTime">Start Time</label>
-                  <input type="time" id="startTime" {...register('startTime')} />
-                  
+                  <input
+                    type="time"
+                    id="startTime"
+                    {...register("startTime")}
+                  />
                 </Col>
                 <Col xs={4} md={4}>
                   {" "}
                   <label htmlFor="endTime">End Time</label>
-                  <input type="time" id="endTime" {...register('endTime')} />
+                  <input type="time" id="endTime" {...register("endTime")} />
                 </Col>
                 <Col xs={6} md={4}>
                   <label htmlFor="userLocation">Your Location</label>
-                  <input type="time" id="userLocation" {...register('userLocation')} />
+                  <input
+                    type="time"
+                    id="userLocation"
+                    {...register("userLocation")}
+                  />
                 </Col>
                 <Col xs={6} md={4}>
                   <label htmlFor="category">Category</label>
 
-                  <select id="category" defaultValue={'DEFAULT'}  {...register('category')} >
+                  <select
+                    id="category"
+                    defaultValue={"DEFAULT"}
+                    {...register("category")}
+                  >
                     <option value="DEFAULT" disabled>
                       Choose Project
                     </option>
