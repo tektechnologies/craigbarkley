@@ -26,7 +26,6 @@
     "react-scroll": "^1.8.9",
     "react-type-animation": "^3.0.1",
     "styled-components": "^5.3.11",
-    "typescript": "^5.4.5",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
