@@ -12,7 +12,8 @@ const SelectedProjectForm = (props) => {
   console.log("props in form comp: ", props);
 
   const form = useForm();
-  const { register, control } = form;
+  const { register, control, handleSubmit } = form;
+  
 
   return (
     <Modal
