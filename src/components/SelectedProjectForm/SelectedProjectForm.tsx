@@ -8,12 +8,33 @@ import Row from "react-bootstrap/Row";
 import { useForm } from "react-hook-form";
 import { DevTool } from "@hookform/devtools";
 
+type FormValues = {
+  firstName : string,
+  lastName : string,
+  companyName : string,
+  emailAddress : string,
+  phoneNumber : string,
+  visitCompetion : string,
+  visitReason : string,
+  instructionRequired : string,
+  instructWhat : string,
+  visitDate : string,
+  startTime : string,
+  endTime : string,
+  userLocation : string,
+  productcategory : string,
+
+};
+
 const SelectedProjectForm = (props) => {
   console.log("props in form comp: ", props);
 
   const form = useForm();
   const { register, control, handleSubmit } = form;
-  
+
+  const onSubmit = (data: FormValues) => {
+    console.log('Form Submitted!', data);
+  }
 
   return (
     <Modal
@@ -29,7 +50,7 @@ const SelectedProjectForm = (props) => {
 
         <Modal.Body>
           <Container>
-            <form>
+            <form onSubmit={handleSubmit(onSubmit)}>
               <Row>
                 <Col xs={4} md={4}>
                   <label htmlFor="firstName">First Name</label>
@@ -143,12 +164,12 @@ const SelectedProjectForm = (props) => {
                   />
                 </Col>
                 <Col xs={6} md={4}>
-                  <label htmlFor="category">Category</label>
+                  <label htmlFor="productcategory">Category</label>
 
                   <select
                     id="category"
                     defaultValue={"DEFAULT"}
-                    {...register("category")}
+                    {...register("productcategory")}
                   >
                     <option value="DEFAULT" disabled>
                       Choose Project
