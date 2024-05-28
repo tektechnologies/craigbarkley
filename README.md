@@ -15,3 +15,7 @@
 - Resource two live site <https://sajib.vercel.app/>
 
 - Resource three live site <https://vinayaksingh.com/>
+
+## React Hook Form and React Dev Tools
+
+![React Form Hook](/public/form-data-log.png)
