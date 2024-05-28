@@ -32,8 +32,8 @@ const SelectedProjectForm = (props) => {
   const { register, control, handleSubmit } = form;
 
   const onSubmit = (data) => {
-    console.log('Form Submitted!', data);
-  }
+    console.log("Form Submitted!", data);
+  };
 
   return (
     <Modal
