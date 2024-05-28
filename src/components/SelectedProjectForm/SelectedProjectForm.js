@@ -12,7 +12,7 @@ const SelectedProjectForm = (props) => {
   console.log("props in form comp: ", props);
 
   const form = useForm();
-  const { register } = form;
+  const { register, control } = form;
 
   return (
     <Modal
@@ -133,7 +133,7 @@ const SelectedProjectForm = (props) => {
                 <button>Submit</button>
               </Row>
             </form>
-            <DevTool />
+            <DevTool control={control} />
           </Container>
         </Modal.Body>
         <Modal.Footer>
