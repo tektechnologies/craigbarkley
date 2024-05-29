@@ -29,8 +29,7 @@ label {
 }
 
 input[type="text"],
-input[type="email"],
-textarea {
+input[type="email"] {
     width: calc(100% - 20px); 
     padding: 10px;
     margin-bottom: 15px;
@@ -53,6 +52,15 @@ form {
   flex-direction: column;
   flex-basis: calc(50% - 15px); 
 }
+
+/* text area for visit reason */
+.label-textarea-group {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% - 15px); 
+}
+
+
 /* Three items per row, accounting for gap */
 .label-input-group.three-col {
   flex-basis: calc(33.333% - 15px); 
@@ -69,49 +77,49 @@ form {
 .slider {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 75px;
+  height: 40px;
   background-color: #ccc;
   border-radius: 34px;
   transition: background-color 0.3s;
 }
 
 /* Style the circle inside the slider */
+/* Circle inside the slider */
 .slider:before {
   position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
+  content: "No";
+  font-size: 15px;
+  height: 32px;
+  width: 32px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: #E75B29;
+  color: whitesmoke;
   border-radius: 50%;
-  transition: transform 0.3s;
+  text-align: center;
+  line-height: 30px;
+  transition: transform 0.3s, content 0.3s;
 }
+
 /* Change background color when checked */
 .toggle input:checked + .slider {
   background-color: #2196F3;
-}
-
-/* Move the circle when checked */
-.toggle input:checked + .slider:before {
-  transform: translateX(26px);
 }
 
 .position-toggle {
   margin-left: 20px;
   margin-bottom: -10px;
 }
+
+/* Move the circle and change text when checked */
+.toggle input:checked + .slider:before {
+  transform: translateX(35px);
+  content: "Yes";
+}
 /* -------------------------toggle-end-------------------- */
 
-input[type="textarea"]
- {
-  width: 1000px; /* Set the width of the textarea */
-  height: 150px; /* Set the height of the textarea */
-  padding: 10px; /* Add padding inside the textarea */
-  font-size: 16px; /* Set the font size */
-  border: 1px solid #ccc; /* Add a border */
-  border-radius: 5px; /* Add border radius for rounded corners */
-  resize: vertical; /* Allow vertical resizing */
-  background-color: rgb(255, 255, 255); /* Set background color */
+
+textarea {
+  width:100%;
 }
