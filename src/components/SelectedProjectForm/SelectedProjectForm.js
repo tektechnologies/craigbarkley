@@ -80,12 +80,12 @@ const SelectedProjectForm = (props) => {
                 />
               </div>
 
-              <label htmlFor="visitCompetion" className="toggle">
+              <label htmlFor="visitForeignCountry" className="toggle">
                 Have you visited a foreign country in the last 7 days?
                 <input
                   type="checkbox"
-                  id="visitCompetion"
-                  {...register("visitCompetion")}
+                  id="visitForeignCountry"
+                  {...register("visitForeignCountry")}
                 />
                 <span className="slider position-toggle"></span>
               </label>
