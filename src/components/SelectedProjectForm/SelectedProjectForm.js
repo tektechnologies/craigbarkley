@@ -44,6 +44,7 @@ const SelectedProjectForm = (props) => {
         </Modal.Header>
 
         <Modal.Body>
+        <div className="form-container">
           <form onSubmit={handleSubmit(onSubmit)}>
             <label htmlFor="firstName">First Name</label>
             <input type="text" id="firstName" {...register("firstName")} />
@@ -138,6 +139,7 @@ const SelectedProjectForm = (props) => {
 
             <button>Submit</button>
           </form>
+          </div>
           <DevTool control={control} />
         </Modal.Body>
         <Modal.Footer>
