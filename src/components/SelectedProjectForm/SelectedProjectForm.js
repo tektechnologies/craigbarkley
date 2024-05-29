@@ -45,28 +45,24 @@ const SelectedProjectForm = (props) => {
 
         <Modal.Body>
           <div className="form-container">
-          
             <form onSubmit={handleSubmit(onSubmit)}>
-
+              <h2>Personal Details</h2>
               <div class="label-input-group three-col">
-           
                 <label htmlFor="firstName">First Name</label>
                 <input type="text" id="firstName" {...register("firstName")} />
-         
               </div>
               <div class="label-input-group three-col">
                 <label htmlFor="lastName">Last Name</label>
                 <input type="text" id="lastName" {...register("lastName")} />
               </div>
               <div class="label-input-group three-col">
-              <label htmlFor="companyName">Company</label>
-              <input
-                type="text"
-                id="companyName"
-                {...register("companyName")}
-              />
+                <label htmlFor="companyName">Company</label>
+                <input
+                  type="text"
+                  id="companyName"
+                  {...register("companyName")}
+                />
               </div>
-
 
               <div class="label-input-group">
                 <label htmlFor="emailAddress">Email</label>
@@ -95,7 +91,8 @@ const SelectedProjectForm = (props) => {
 
               <hr />
 
-              <label htmlFor="visitReason">Visit Reason</label>
+              <h2>Visit Reason</h2>
+              <label htmlFor="visitReason">Reason for Visit</label>
               <input
                 type="textarea"
                 id="visitReason"
@@ -103,19 +100,15 @@ const SelectedProjectForm = (props) => {
               />
 
               <hr />
-
-              <label htmlFor="instructionRequired">
-                Product Instruction Required?
-              </label>
+              <h2>Tools Details</h2>
+              <label htmlFor="toolsRequired">Tools Required</label>
               <input
                 type="checkbox"
-                id="instructionRequired"
-                {...register("instructionRequired")}
+                id="toolsRequired"
+                {...register("toolsRequired")}
               />
 
-              <hr />
-
-              <label htmlFor="instructWhat">Instruction Specifics</label>
+              <label htmlFor="instructWhat">Reason for Visit</label>
               <input
                 type="textarea"
                 id="instructWhat"
@@ -123,7 +116,7 @@ const SelectedProjectForm = (props) => {
               />
 
               <hr />
-
+              <h2>Visit Details</h2>
               <label htmlFor="visitDate">Visit Date</label>
               <input type="date" id="visitDate" {...register("visitDate")} />
 
@@ -158,7 +151,6 @@ const SelectedProjectForm = (props) => {
 
               <button>Submit</button>
             </form>
-            
           </div>
           <DevTool control={control} />
         </Modal.Body>
