@@ -56,3 +56,46 @@ form {
 }
 
 
+/* Hide the default checkbox */
+.toggle input {
+  display: none;
+}
+
+/* Style the slider */
+.slider {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: background-color 0.3s;
+}
+
+/* Style the circle inside the slider */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+/* Change background color when checked */
+.toggle input:checked + .slider {
+  background-color: #2196F3;
+}
+
+/* Move the circle when checked */
+.toggle input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.position-toggle {
+  margin-left: 20px;
+  margin-bottom: -10px;
+}

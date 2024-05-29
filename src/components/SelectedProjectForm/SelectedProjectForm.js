@@ -46,16 +46,16 @@ const SelectedProjectForm = (props) => {
         <Modal.Body>
           <div className="form-container">
             <form onSubmit={handleSubmit(onSubmit)}>
-              <h2>Personal Details</h2>
-              <div class="label-input-group three-col">
+              {/* <h2>Personal Details</h2> */}
+              <div className="label-input-group three-col">
                 <label htmlFor="firstName">First Name</label>
                 <input type="text" id="firstName" {...register("firstName")} />
               </div>
-              <div class="label-input-group three-col">
+              <div className="label-input-group three-col">
                 <label htmlFor="lastName">Last Name</label>
                 <input type="text" id="lastName" {...register("lastName")} />
               </div>
-              <div class="label-input-group three-col">
+              <div className="label-input-group three-col">
                 <label htmlFor="companyName">Company</label>
                 <input
                   type="text"
@@ -63,8 +63,7 @@ const SelectedProjectForm = (props) => {
                   {...register("companyName")}
                 />
               </div>
-
-              <div class="label-input-group">
+              <div className="label-input-group">
                 <label htmlFor="emailAddress">Email</label>
                 <input
                   type="text"
@@ -72,7 +71,7 @@ const SelectedProjectForm = (props) => {
                   {...register("emailAddress")}
                 />
               </div>
-              <div class="label-input-group">
+              <div className="label-input-group">
                 <label htmlFor="phoneNumber">Phone Number</label>
                 <input
                   type="text"
@@ -80,61 +79,60 @@ const SelectedProjectForm = (props) => {
                   {...register("phoneNumber")}
                 />
               </div>
-              <label htmlFor="visitCompetion">
-                Have you contacted another provider in the last 7 days?
+
+              <label htmlFor="visitCompetion" className="toggle">
+                Have you visited a foreign country in the last 7 days?
+                <input
+                  type="checkbox"
+                  id="visitCompetion"
+                  {...register("visitCompetion")}
+                />
+                <span className="slider position-toggle"></span>
               </label>
-              <input
-                type="checkbox"
-                id="visitCompetion"
-                {...register("visitCompetion")}
-              />
 
               <hr />
-
-              <h2>Visit Reason</h2>
+              {/* <h2>Visit Reason</h2> */}
+              {/* <label htmlFor="visitReason">Reason for Visit</label>
+              <input
+                type="textarea"
+                id="visitReason"
+                {...register("visitReason")}
+              />
+              <hr /> */}
+              {/* <h2>Tools Details</h2> */}
+              {/* <label htmlFor="toolsRequired">Tools Required</label>
+              <input
+                type="checkbox"
+                id="toolsRequired"
+                {...register("toolsRequired")}
+              />
               <label htmlFor="visitReason">Reason for Visit</label>
               <input
                 type="textarea"
                 id="visitReason"
                 {...register("visitReason")}
               />
-
-              <hr />
-              <h2>Tools Details</h2>
-              <label htmlFor="toolsRequired">Tools Required</label>
-              <input
-                type="checkbox"
-                id="toolsRequired"
-                {...register("toolsRequired")}
-              />
-
-              <label htmlFor="instructWhat">Reason for Visit</label>
-              <input
-                type="textarea"
-                id="instructWhat"
-                {...register("instructWhat")}
-              />
-
-              <hr />
-              <h2>Visit Details</h2>
-              <label htmlFor="visitDate">Visit Date</label>
-              <input type="date" id="visitDate" {...register("visitDate")} />
-
-              <label htmlFor="startTime">Start Time</label>
-              <input type="time" id="startTime" {...register("startTime")} />
-
-              <label htmlFor="endTime">End Time</label>
-              <input type="time" id="endTime" {...register("endTime")} />
-
+              <hr /> */}
+              {/* <h2>Visit Details</h2> */}
+              {/* <div class="label-input-group three-col">
+                <label htmlFor="visitDate">Visit Date</label>
+                <input type="date" id="visitDate" {...register("visitDate")} />
+              </div>
+              <div class="label-input-group three-col">
+                <label htmlFor="startTime">Start Time</label>
+                <input type="time" id="startTime" {...register("startTime")} />
+              </div>{" "}
+              <div class="label-input-group three-col">
+                <label htmlFor="endTime">End Time</label>
+                <input type="time" id="endTime" {...register("endTime")} />
+              </div>
               <label htmlFor="userLocation">Your Location</label>
               <input
                 type="time"
                 id="userLocation"
                 {...register("userLocation")}
               />
-
               <label htmlFor="productcategory">Category</label>
-
               <select
                 id="category"
                 defaultValue={"DEFAULT"}
@@ -147,8 +145,7 @@ const SelectedProjectForm = (props) => {
                 <option value="seo">Digital Marketing</option>
                 <option value="onlineStore">Online Store</option>
                 <option value="logoBranding">Logo Graphics Branding</option>
-              </select>
-
+              </select> */}
               <button>Submit</button>
             </form>
           </div>
