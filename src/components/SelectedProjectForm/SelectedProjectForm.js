@@ -111,15 +111,34 @@ const SelectedProjectForm = (props) => {
                     {...register("visitReason")}
                   />
                 </div>
+                <hr
+                  style={{
+                    width: "100%",
+                    color: "grey",
+                    border: "1px solid grey",
+                  }}
+                />
 
-                {/*  <hr /> */}
-                {/* <h2>Tools Details</h2> */}
-                {/* <label htmlFor="toolsRequired">Tools Required</label>
-              <input
-                type="checkbox"
-                id="toolsRequired"
-                {...register("toolsRequired")}
-              />
+
+
+<div className="label-input-group">
+                <h2>Tools Details</h2>
+
+
+                
+                <label htmlFor="toolsRequired" className="toggle">
+                Tools Required
+                <input
+                  type="checkbox"
+                  id="toolsRequired"
+                  {...register("toolsRequired")}
+                />
+                <span className="slider position-toggle"></span>
+
+                </label></div>
+
+ {/*
+
               <label htmlFor="visitReason">Reason for Visit</label>
               <input
                 type="textarea"
