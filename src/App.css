@@ -1,4 +1,6 @@
-
+h2{
+  display: inline-block;
+}
 
 
 .form-container {
@@ -10,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
-  order: 2;
+  /* order: 2; */
   flex-direction: column;
 }
 
@@ -55,6 +57,7 @@ form {
   flex-basis: calc(33.333% - 15px); 
 }
 
+/* -------------------------toggle--------https://codepen.io/mallendeo/pen/QWKrEL------------- */
 
 /* Hide the default checkbox */
 .toggle input {
@@ -84,7 +87,6 @@ form {
   border-radius: 50%;
   transition: transform 0.3s;
 }
-
 /* Change background color when checked */
 .toggle input:checked + .slider {
   background-color: #2196F3;
@@ -99,3 +101,6 @@ form {
   margin-left: 20px;
   margin-bottom: -10px;
 }
+/* -------------------------toggle-end-------------------- */
+
+
