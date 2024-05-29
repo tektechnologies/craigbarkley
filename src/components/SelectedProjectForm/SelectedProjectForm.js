@@ -46,11 +46,8 @@ const SelectedProjectForm = (props) => {
         <Modal.Body>
           <div className="grid-container">
             <div className="form-container">
-            <h2>Personal Details</h2>
+              <h2>Personal Details</h2>
               <form onSubmit={handleSubmit(onSubmit)}>
-                
-                
-          
                 <div className="label-input-group three-col">
                   <label htmlFor="firstName">First Name</label>
                   <input
@@ -71,11 +68,6 @@ const SelectedProjectForm = (props) => {
                     {...register("companyName")}
                   />
                 </div>
-
-
-
-
-
                 <div className="label-input-group">
                   <label htmlFor="emailAddress">Email</label>
                   <input
@@ -92,13 +84,6 @@ const SelectedProjectForm = (props) => {
                     {...register("phoneNumber")}
                   />
                 </div>
-
-
-
-
-
-
-
                 <label htmlFor="visitForeignCountry" className="toggle">
                   Have you visited a foreign country in the last 7 days?
                   <input
@@ -108,10 +93,16 @@ const SelectedProjectForm = (props) => {
                   />
                   <span className="slider position-toggle"></span>
                 </label>
+                <hr
+                  style={{
+                    width: "100%",
+                    color: "grey",
+                    border: "1px solid grey",
+                  }}
+                />
 
-                <hr />
                 <div className="label-input-group">
-                  {/* <h2>Visit Reason</h2> */}
+                  <h2>Visit Reason</h2>
 
                   <label htmlFor="visitReason">Reason for Visit</label>
                   <input
@@ -120,17 +111,6 @@ const SelectedProjectForm = (props) => {
                     {...register("visitReason")}
                   />
                 </div>
-
-
-
-
-
-
-
-
-
-
-
 
                 {/*  <hr /> */}
                 {/* <h2>Tools Details</h2> */}
