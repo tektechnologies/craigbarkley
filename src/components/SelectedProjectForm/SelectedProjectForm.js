@@ -44,101 +44,117 @@ const SelectedProjectForm = (props) => {
         </Modal.Header>
 
         <Modal.Body>
-        <div className="form-container">
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <label htmlFor="firstName">First Name</label>
-            <input type="text" id="firstName" {...register("firstName")} />
+          <div className="form-container">
+            <form onSubmit={handleSubmit(onSubmit)}>
 
-            <label htmlFor="lastName">Last Name</label>
-            <input type="text" id="lastName" {...register("lastName")} />
+              <div class="label-input-group three-col">
+                <label htmlFor="firstName">First Name</label>
+                <input type="text" id="firstName" {...register("firstName")} />
+              </div>
+              <div class="label-input-group three-col">
+                <label htmlFor="lastName">Last Name</label>
+                <input type="text" id="lastName" {...register("lastName")} />
+              </div>
+              <div class="label-input-group three-col">
+              <label htmlFor="companyName">Company</label>
+              <input
+                type="text"
+                id="companyName"
+                {...register("companyName")}
+              />
+              </div>
 
-            <label htmlFor="companyName">Company</label>
-            <input type="text" id="companyName" {...register("companyName")} />
 
-            <label htmlFor="emailAddress">Email</label>
-            <input
-              type="text"
-              id="emailAddress"
-              {...register("emailAddress")}
-            />
+              <div class="label-input-group">
+                <label htmlFor="emailAddress">Email</label>
+                <input
+                  type="text"
+                  id="emailAddress"
+                  {...register("emailAddress")}
+                />
+              </div>
+              <div class="label-input-group">
+                <label htmlFor="phoneNumber">Phone Number</label>
+                <input
+                  type="text"
+                  id="phoneNumber"
+                  {...register("phoneNumber")}
+                />
+              </div>
+              <label htmlFor="visitCompetion">
+                Have you contacted another provider in the last 7 days?
+              </label>
+              <input
+                type="checkbox"
+                id="visitCompetion"
+                {...register("visitCompetion")}
+              />
 
-            <label htmlFor="phoneNumber">Phone Number</label>
-            <input type="text" id="phoneNumber" {...register("phoneNumber")} />
+              <hr />
 
-            <label htmlFor="visitCompetion">
-              Have you contacted another provider in the last 7 days?
-            </label>
-            <input
-              type="checkbox"
-              id="visitCompetion"
-              {...register("visitCompetion")}
-            />
+              <label htmlFor="visitReason">Visit Reason</label>
+              <input
+                type="textarea"
+                id="visitReason"
+                {...register("visitReason")}
+              />
 
-            <hr />
+              <hr />
 
-            <label htmlFor="visitReason">Visit Reason</label>
-            <input
-              type="textarea"
-              id="visitReason"
-              {...register("visitReason")}
-            />
+              <label htmlFor="instructionRequired">
+                Product Instruction Required?
+              </label>
+              <input
+                type="checkbox"
+                id="instructionRequired"
+                {...register("instructionRequired")}
+              />
 
-            <hr />
+              <hr />
 
-            <label htmlFor="instructionRequired">
-              Product Instruction Required?
-            </label>
-            <input
-              type="checkbox"
-              id="instructionRequired"
-              {...register("instructionRequired")}
-            />
+              <label htmlFor="instructWhat">Instruction Specifics</label>
+              <input
+                type="textarea"
+                id="instructWhat"
+                {...register("instructWhat")}
+              />
 
-            <hr />
+              <hr />
 
-            <label htmlFor="instructWhat">Instruction Specifics</label>
-            <input
-              type="textarea"
-              id="instructWhat"
-              {...register("instructWhat")}
-            />
+              <label htmlFor="visitDate">Visit Date</label>
+              <input type="date" id="visitDate" {...register("visitDate")} />
 
-            <hr />
+              <label htmlFor="startTime">Start Time</label>
+              <input type="time" id="startTime" {...register("startTime")} />
 
-            <label htmlFor="visitDate">Visit Date</label>
-            <input type="date" id="visitDate" {...register("visitDate")} />
+              <label htmlFor="endTime">End Time</label>
+              <input type="time" id="endTime" {...register("endTime")} />
 
-            <label htmlFor="startTime">Start Time</label>
-            <input type="time" id="startTime" {...register("startTime")} />
+              <label htmlFor="userLocation">Your Location</label>
+              <input
+                type="time"
+                id="userLocation"
+                {...register("userLocation")}
+              />
 
-            <label htmlFor="endTime">End Time</label>
-            <input type="time" id="endTime" {...register("endTime")} />
+              <label htmlFor="productcategory">Category</label>
 
-            <label htmlFor="userLocation">Your Location</label>
-            <input
-              type="time"
-              id="userLocation"
-              {...register("userLocation")}
-            />
+              <select
+                id="category"
+                defaultValue={"DEFAULT"}
+                {...register("productcategory")}
+              >
+                <option value="DEFAULT" disabled>
+                  Choose Project
+                </option>
+                <option value="webSite">Web Site</option>
+                <option value="seo">Digital Marketing</option>
+                <option value="onlineStore">Online Store</option>
+                <option value="logoBranding">Logo Graphics Branding</option>
+              </select>
 
-            <label htmlFor="productcategory">Category</label>
-
-            <select
-              id="category"
-              defaultValue={"DEFAULT"}
-              {...register("productcategory")}
-            >
-              <option value="DEFAULT" disabled>
-                Choose Project
-              </option>
-              <option value="webSite">Web Site</option>
-              <option value="seo">Digital Marketing</option>
-              <option value="onlineStore">Online Store</option>
-              <option value="logoBranding">Logo Graphics Branding</option>
-            </select>
-
-            <button>Submit</button>
-          </form>
+              <button>Submit</button>
+            </form>
           </div>
           <DevTool control={control} />
         </Modal.Body>
