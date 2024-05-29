@@ -45,11 +45,14 @@ const SelectedProjectForm = (props) => {
 
         <Modal.Body>
           <div className="form-container">
+          
             <form onSubmit={handleSubmit(onSubmit)}>
 
               <div class="label-input-group three-col">
+           
                 <label htmlFor="firstName">First Name</label>
                 <input type="text" id="firstName" {...register("firstName")} />
+         
               </div>
               <div class="label-input-group three-col">
                 <label htmlFor="lastName">Last Name</label>
@@ -155,6 +158,7 @@ const SelectedProjectForm = (props) => {
 
               <button>Submit</button>
             </form>
+            
           </div>
           <DevTool control={control} />
         </Modal.Body>

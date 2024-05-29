@@ -15,17 +15,20 @@
 }
 
 label {
- 
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
+  display: table; 
+  z-index: 1000;
+  margin: 0px auto; 
+  font-size:20px;
+  background-color:rgb(255, 255, 255);
+  margin-bottom: -15px;
+  margin-left: 20px;
   color: #555555;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: calc(100% - 20px); /* To account for padding */
+    width: calc(100% - 20px); 
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #cccccc;
@@ -41,13 +44,15 @@ form {
   gap: 20px; /* Gap between items */
 }
 
-
+/* Two items per row, accounting for gap */
 .label-input-group {
   display: flex;
   flex-direction: column;
-  flex-basis: calc(50% - 15px); /* Two items per row, accounting for gap */
+  flex-basis: calc(50% - 15px); 
+}
+/* Three items per row, accounting for gap */
+.label-input-group.three-col {
+  flex-basis: calc(33.333% - 15px); 
 }
 
-.label-input-group.three-col {
-  flex-basis: calc(33.333% - 15px); /* Three items per row, accounting for gap */
-}
+
