@@ -178,15 +178,17 @@ const SelectedProjectForm = (props) => {
               </div>
 
 
-
-              {/* <label htmlFor="userLocation">Your Location</label>
+              <div className="label-input-group">
+              <label htmlFor="userLocation">Your Location</label>
               <input
                 type="time"
                 id="userLocation"
                 {...register("userLocation")}
-              /> */}
-              {/* <label htmlFor="productcategory">Category</label> */}
-              {/* <select
+              />
+</div>
+              <div className="label-input-group">
+              <label htmlFor="productcategory">Category</label>
+              <select
                 id="category"
                 defaultValue={"DEFAULT"}
                 {...register("productcategory")}
@@ -198,7 +200,8 @@ const SelectedProjectForm = (props) => {
                 <option value="seo">Digital Marketing</option>
                 <option value="onlineStore">Online Store</option>
                 <option value="logoBranding">Logo Graphics Branding</option>
-              </select>  */}
+              </select> 
+              </div>
                 {/* <button>Submit</button> */}
               </form>
             </div>
