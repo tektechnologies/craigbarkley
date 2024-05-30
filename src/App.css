@@ -2,7 +2,9 @@ h2{
   display: inline-block;
   font-size: 24px;
 }
-
+.h2-plus-icon {
+  margin-left: 50px;
+}
 
 .form-container {
   background-color: #ffffff;
