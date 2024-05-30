@@ -110,7 +110,15 @@ const SelectedProjectForm = (props) => {
                     id="visitReason"
                     {...register("visitReason")}
                   /> */}
-                  <textarea  placeholder="Enter text here"  htmlFor="visitReason" id="visitReason"  rows="4"  {...register("visitReason")}>{''}</textarea>
+                  <textarea
+                    placeholder="Enter text here"
+                    htmlFor="visitReason"
+                    id="visitReason"
+                    rows="4"
+                    {...register("visitReason")}
+                  >
+                    {""}
+                  </textarea>
                 </div>
                 <hr
                   style={{
@@ -133,21 +141,25 @@ const SelectedProjectForm = (props) => {
                   </label>
                 </div>
 
-                
                 <div className="label-textarea-group">
-              <label htmlFor="visitReason">Reason for Tools</label>
-              {/* <input
+                  <label htmlFor="visitReason">Reason for Tools</label>
+                  {/* <input
                 type="textarea"
                 id="toolReason"
                 {...register("toolReason")}
               /> */}
-               <textarea  placeholder="Enter text here"  htmlFor="toolReason" id="toolReason"  rows="4"  {...register("toolReason")}>{''}</textarea>
-              </div>
+                  <textarea
+                    placeholder="Enter text here"
+                    htmlFor="toolReason"
+                    id="toolReason"
+                    rows="4"
+                    {...register("toolReason")}
+                  >
+                    {""}
+                  </textarea>
+                </div>
 
-
-
-
-               <hr
+                <hr
                   style={{
                     width: "100%",
                     color: "grey",
@@ -155,53 +167,56 @@ const SelectedProjectForm = (props) => {
                   }}
                 />
 
-
-              <div className="h2-blocklevel">
-                <h2>Visit Details</h2>
-               </div>
+                <div className="h2-blocklevel">
+                  <h2>Visit Details</h2>
+                </div>
                 <div class="label-input-group three-col">
-                
-                <label htmlFor="visitDate">Visit Date</label>
-                <input type="date" id="visitDate" {...register("visitDate")} />
-              </div>
+                  <label htmlFor="visitDate">Visit Date</label>
+                  <input
+                    type="date"
+                    id="visitDate"
+                    {...register("visitDate")}
+                  />
+                </div>
 
+                <div class="label-input-group three-col">
+                  <label htmlFor="startTime">Start Time</label>
+                  <input
+                    type="time"
+                    id="startTime"
+                    {...register("startTime")}
+                  />
+                </div>
 
-              <div class="label-input-group three-col">
-                <label htmlFor="startTime">Start Time</label>
-                <input type="time" id="startTime" {...register("startTime")} />
-              </div>
+                <div class="label-input-group three-col">
+                  <label htmlFor="endTime">End Time</label>
+                  <input type="time" id="endTime" {...register("endTime")} />
+                </div>
 
-
-              <div class="label-input-group three-col">
-                <label htmlFor="endTime">End Time</label>
-                <input type="time" id="endTime" {...register("endTime")} />
-              </div>
-
-
-              <div className="label-input-group">
-              <label htmlFor="userLocation">Your Location</label>
-              <input
-                type="time"
-                id="userLocation"
-                {...register("userLocation")}
-              />
-</div>
-              <div className="label-input-group">
-              <label htmlFor="productcategory">Category</label>
-              <select
-                id="category"
-                defaultValue={"DEFAULT"}
-                {...register("productcategory")}
-              >
-                <option value="DEFAULT" disabled>
-                  Choose Project
-                </option>
-                <option value="webSite">Web Site</option>
-                <option value="seo">Digital Marketing</option>
-                <option value="onlineStore">Online Store</option>
-                <option value="logoBranding">Logo Graphics Branding</option>
-              </select> 
-              </div>
+                <div className="label-input-group">
+                  <label htmlFor="userLocation">Your Location</label>
+                  <input
+                    type="time"
+                    id="userLocation"
+                    {...register("userLocation")}
+                  />
+                </div>
+                <div className="label-input-group">
+                  <label htmlFor="productcategory">Category</label>
+                  <select
+                    id="category"
+                    defaultValue={"DEFAULT"}
+                    {...register("productcategory")}
+                  >
+                    <option value="DEFAULT" disabled>
+                      Choose Project
+                    </option>
+                    <option value="webSite">Web Site</option>
+                    <option value="seo">Digital Marketing</option>
+                    <option value="onlineStore">Online Store</option>
+                    <option value="logoBranding">Logo Graphics Branding</option>
+                  </select>
+                </div>
                 {/* <button>Submit</button> */}
               </form>
             </div>
@@ -209,14 +224,15 @@ const SelectedProjectForm = (props) => {
           <DevTool control={control} />
         </Modal.Body>
         <Modal.Footer>
+          <h2>ELECTRONIC DEVICES</h2>
           <p>
-            The content and design of this website are provided for
-            informational purposes only and are created by a professional web
-            designer. While every effort is made to ensure the accuracy and
-            quality of the information and design elements, the website designer
-            makes no guarantees, representations, or warranties regarding the
-            currentness, completeness, or suitability of the content for any
-            specific purpose.
+            No cell phones, cameras, audio or visual equipment, or any other
+            electronic devices are permitted on the premises without written
+            approval by Door Access System. By signing this statement, you
+            declare that you have no electronic devices including those
+            mentioned above on your person, and you have no intention of
+            bringing such devices onto the premises without prior written
+            approval
           </p>
 
           <button onClick={props.handleClose} variant="secondary">
