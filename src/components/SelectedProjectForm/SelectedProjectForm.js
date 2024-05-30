@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Modal from "react-bootstrap/Modal";
 import { useForm } from "react-hook-form";
 import { DevTool } from "@hookform/devtools";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons'
 // type FormValues = {
 //   firstName : string,
 //   lastName : string,
@@ -224,8 +225,8 @@ const SelectedProjectForm = (props) => {
                     border: "1px solid grey",
                   }}
                 />
-<FontAwesomeIcon icon="fa-solid fa-circle-exclamation" style={{color: "#0e7529",}} />
-                <h2 className="h2-blocklevel color-alert">ELECTRONIC DEVICES</h2>
+                
+                <FontAwesomeIcon icon={faCircleExclamation} style={{color: "#E75B29",}} />                <h2 className="h2-blocklevel color-alert">ELECTRONIC DEVICES</h2>
           <p>
             No cell phones, cameras, audio or visual equipment, or any other
             electronic devices are permitted on the premises without written
