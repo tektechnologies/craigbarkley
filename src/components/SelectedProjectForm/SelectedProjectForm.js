@@ -204,12 +204,12 @@ const SelectedProjectForm = (props) => {
                     {...register("productcategory")}
                   >
                     <option value="DEFAULT" disabled>
-                      Choose Project
+                      Select User
                     </option>
-                    <option value="webSite">Web Site</option>
-                    <option value="seo">Digital Marketing</option>
-                    <option value="onlineStore">Online Store</option>
-                    <option value="logoBranding">Logo Graphics Branding</option>
+                    <option value="visitor">Vistor</option>
+                    <option value="farmer">Farmer</option>
+                    <option value="usda">USDA Rep</option>
+                    <option value="porkypigg">Porky Pig</option>
                   </select>
                 </div>
                 <hr
