@@ -156,27 +156,37 @@ const SelectedProjectForm = (props) => {
                 />
 
 
-                {/* <h2>Visit Details</h2> */}
-                {/* <div class="label-input-group three-col">
+              <div className="h2-blocklevel">
+                <h2>Visit Details</h2>
+               </div>
+                <div class="label-input-group three-col">
+                
                 <label htmlFor="visitDate">Visit Date</label>
                 <input type="date" id="visitDate" {...register("visitDate")} />
               </div>
+
+
               <div class="label-input-group three-col">
                 <label htmlFor="startTime">Start Time</label>
                 <input type="time" id="startTime" {...register("startTime")} />
-              </div>{" "}
+              </div>
+
+
               <div class="label-input-group three-col">
                 <label htmlFor="endTime">End Time</label>
                 <input type="time" id="endTime" {...register("endTime")} />
               </div>
-              <label htmlFor="userLocation">Your Location</label>
+
+
+
+              {/* <label htmlFor="userLocation">Your Location</label>
               <input
                 type="time"
                 id="userLocation"
                 {...register("userLocation")}
-              />
-              <label htmlFor="productcategory">Category</label>
-              <select
+              /> */}
+              {/* <label htmlFor="productcategory">Category</label> */}
+              {/* <select
                 id="category"
                 defaultValue={"DEFAULT"}
                 {...register("productcategory")}
@@ -188,7 +198,7 @@ const SelectedProjectForm = (props) => {
                 <option value="seo">Digital Marketing</option>
                 <option value="onlineStore">Online Store</option>
                 <option value="logoBranding">Logo Graphics Branding</option>
-              </select> */}
+              </select>  */}
                 {/* <button>Submit</button> */}
               </form>
             </div>

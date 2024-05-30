@@ -59,6 +59,12 @@ form {
   flex-direction: column;
   flex-basis: calc(100% - 15px); 
 }
+/* text area for visit reason */
+.h2-blocklevel {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% - 15px); 
+}
 
 
 /* Three items per row, accounting for gap */
