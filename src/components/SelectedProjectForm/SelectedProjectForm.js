@@ -203,9 +203,9 @@ const SelectedProjectForm = (props) => {
                     defaultValue={"DEFAULT"}
                     {...register("productcategory")}
                   >
-                    <option value="DEFAULT" disabled>
+                    {/* <option value="DEFAULT" disabled>
                       Select User
-                    </option>
+                    </option> */}
                     <option value="visitor">Vistor</option>
                     <option value="farmer">Farmer</option>
                     <option value="usda">USDA Rep</option>
