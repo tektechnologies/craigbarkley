@@ -122,7 +122,6 @@ const SelectedProjectForm = (props) => {
 
                 <div className="label-input-group">
                   <h2>Tools Details</h2>
-
                   <label htmlFor="toolsRequired" className="toggle">
                     Tools Required
                     <input
@@ -134,15 +133,29 @@ const SelectedProjectForm = (props) => {
                   </label>
                 </div>
 
-                {/*
-
-              <label htmlFor="visitReason">Reason for Visit</label>
-              <input
+                
+                <div className="label-textarea-group">
+              <label htmlFor="visitReason">Reason for Tools</label>
+              {/* <input
                 type="textarea"
-                id="visitReason"
-                {...register("visitReason")}
-              />
-              <hr /> */}
+                id="toolReason"
+                {...register("toolReason")}
+              /> */}
+               <textarea  placeholder="Enter text here"  htmlFor="toolReason" id="toolReason"  rows="4"  {...register("toolReason")}>{''}</textarea>
+              </div>
+
+
+
+
+               <hr
+                  style={{
+                    width: "100%",
+                    color: "grey",
+                    border: "1px solid grey",
+                  }}
+                />
+
+
                 {/* <h2>Visit Details</h2> */}
                 {/* <div class="label-input-group three-col">
                 <label htmlFor="visitDate">Visit Date</label>
