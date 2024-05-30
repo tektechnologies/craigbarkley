@@ -217,14 +217,15 @@ const SelectedProjectForm = (props) => {
                     <option value="logoBranding">Logo Graphics Branding</option>
                   </select>
                 </div>
-                {/* <button>Submit</button> */}
-              </form>
-            </div>
-          </div>
-          <DevTool control={control} />
-        </Modal.Body>
-        <Modal.Footer>
-          <h2>ELECTRONIC DEVICES</h2>
+                <hr
+                  style={{
+                    width: "100%",
+                    color: "grey",
+                    border: "1px solid grey",
+                  }}
+                />
+<FontAwesomeIcon icon="fa-solid fa-circle-exclamation" style={{color: "#0e7529",}} />
+                <h2 className="h2-blocklevel color-alert">ELECTRONIC DEVICES</h2>
           <p>
             No cell phones, cameras, audio or visual equipment, or any other
             electronic devices are permitted on the premises without written
@@ -234,6 +235,14 @@ const SelectedProjectForm = (props) => {
             bringing such devices onto the premises without prior written
             approval
           </p>
+                <button className="next-button">Next</button>
+              </form>
+            </div>
+          </div>
+          <DevTool control={control} />
+        </Modal.Body>
+        <Modal.Footer>
+         
 
           <button onClick={props.handleClose} variant="secondary">
             Close
