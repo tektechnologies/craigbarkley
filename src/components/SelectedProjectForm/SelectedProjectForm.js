@@ -235,6 +235,9 @@ const SelectedProjectForm = (props) => {
                   no intention of bringing such devices onto the premises
                   without prior written approval
                 </p>
+                {""}
+                <h2>Signature</h2>
+                <div className="signature-div"><p>Tap To Sign</p></div>
                 <button className="next-button">Next</button>
               </form>
             </div>
