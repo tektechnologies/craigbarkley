@@ -61,6 +61,7 @@ const SelectedProjectForm = (props) => {
                   <label htmlFor="lastName">Last Name</label>
                   <input type="text" id="lastName" {...register("lastName")} />
                 </div>
+
                 <div className="label-input-group three-col">
                   <label htmlFor="companyName">Company</label>
                   <input
@@ -237,7 +238,9 @@ const SelectedProjectForm = (props) => {
                 </p>
                 {""}
                 <h2>Signature</h2>
-                <div className="signature-div"><p>Tap To Sign</p></div>
+                <div className="signature-div">
+                  <p>Tap To Sign</p>
+                </div>
                 <button className="next-button">Next</button>
               </form>
             </div>
