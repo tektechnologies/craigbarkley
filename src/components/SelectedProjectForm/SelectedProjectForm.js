@@ -32,7 +32,7 @@ const SelectedProjectForm = (props) => {
         <Modal.Body>
           <div className="grid-container">
             <div className="form-container">
-              <h2>Personal Details</h2>
+              <h2>Discovery Details</h2>
               <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="label-input-group three-col">
                   <label htmlFor="firstName">First Name</label>
@@ -72,7 +72,7 @@ const SelectedProjectForm = (props) => {
                   />
                 </div>
                 <label htmlFor="visitForeignCountry" className="toggle">
-                  Have you visited a foreign country in the last 7 days?
+                  Have you started another project in the last 7 days?
                   <input
                     type="checkbox"
                     id="visitForeignCountry"
@@ -113,9 +113,9 @@ const SelectedProjectForm = (props) => {
                 />
 
                 <div className="label-input-group">
-                  <h2>Tools Details</h2>
+                  <h2>Project Details</h2>
                   <label htmlFor="toolsRequired" className="toggle">
-                    Tools Required
+                   Are you a business?
                     <input
                       type="checkbox"
                       id="toolsRequired"
@@ -126,7 +126,7 @@ const SelectedProjectForm = (props) => {
                 </div>
 
                 <div className="label-textarea-group">
-                  <label htmlFor="visitReason">Reason for Tools</label>
+                  <label htmlFor="visitReason">What does sucesss look like for this project?</label>
                   {/* <input
                 type="textarea"
                 id="toolReason"
@@ -183,7 +183,7 @@ const SelectedProjectForm = (props) => {
                   />
                 </div>
                 <div className="label-input-group">
-                  <label htmlFor="productcategory">Category</label>
+                  <label htmlFor="productcategory">Offerings</label>
                   <select
                     id="category"
                     defaultValue={"DEFAULT"}
@@ -192,10 +192,10 @@ const SelectedProjectForm = (props) => {
                     {/* <option value="DEFAULT" disabled>
                       Select User
                     </option> */}
-                    <option value="visitor">Vistor</option>
-                    <option value="farmer">Farmer</option>
-                    <option value="usda">USDA Rep</option>
-                    <option value="porkypigg">Porky Pig</option>
+                    <option value="visitor">Website</option>
+                    <option value="farmer">Digital Marketing</option>
+                    <option value="usda">Online Store</option>
+                    <option value="porkypigg">Home Cameras</option>
                   </select>
                 </div>
                 <hr
@@ -213,20 +213,14 @@ const SelectedProjectForm = (props) => {
                 <h2 className="color-alert">ELECTRONIC DEVICES</h2>
 
                 <p>
-                  No cell phones, cameras, audio or visual equipment, or any
-                  other electronic devices are permitted on the premises without
-                  written approval by Door Access System. By signing this
-                  statement, you declare that you have no electronic devices
-                  including those mentioned above on your person, and you have
-                  no intention of bringing such devices onto the premises
-                  without prior written approval
+                Lets build  TEK!
                 </p>
-                {""}
+               
                 <h2>Signature</h2>
                 <div className="signature-div">
                   <p>Tap To Sign</p>
                 </div>
-                <button className="next-button">Next</button>
+                <button className="next-button">Submit</button>
               </form>
             </div>
           </div>
