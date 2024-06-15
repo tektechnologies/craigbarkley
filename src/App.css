@@ -96,7 +96,7 @@ form {
   position: relative;
   display: inline-block;
   width: 75px;
-  height: 40px;
+  height: 46px;
   background-color: #ccc;
   border-radius: 34px;
   transition: background-color 0.3s;
@@ -108,21 +108,21 @@ form {
   position: absolute;
   content: "No";
   font-size: 15px;
-  height: 32px;
-  width: 32px;
+  height: 38px;
+  width: 38px;
   left: 4px;
   bottom: 4px;
-  background-color: #e75b29;
+  background-color: rgb(203,108,181);
   color: whitesmoke;
   border-radius: 50%;
   text-align: center;
-  line-height: 30px;
+  line-height: 35px;
   transition: transform 0.3s, content 0.3s;
 }
 
 /* Change background color when checked */
 .toggle input:checked + .slider {
-  background-color: #2196f3;
+  background-color: rgba(244, 16, 191, 0.575);
 }
 
 .position-toggle {
@@ -132,7 +132,8 @@ form {
 
 /* Move the circle and change text when checked */
 .toggle input:checked + .slider:before {
-  transform: translateX(35px);
+  transform: translateX(30px);
+  background-color: rgb(167, 2, 128);
   content: "Yes";
 }
 /* -------------------------toggle-end-------------------- */
@@ -146,14 +147,14 @@ textarea {
   height: 75px;
   font-size: 24px;
   color: whitesmoke;
-  background-color: #3a716c;
+  background-color: rgb(118, 27, 97);
   border-radius: 5px;
   border: none;
 }
 
 .color-alert {
   font-weight: bold;
-  color: #e75b29;
+  color: rgb(203,108,181);
   margin-top: 5px;
 }
 
