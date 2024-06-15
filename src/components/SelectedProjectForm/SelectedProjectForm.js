@@ -206,18 +206,14 @@ const SelectedProjectForm = (props) => {
 
                 <FontAwesomeIcon
                   icon={faCircleExclamation}
-                  style={{ height: "40px", color: "#E75B29" }}
+                  style={{ height: "40px", color: "rgb(203,108,181)" }}
                 />
                 <h2 className="color-alert">ELECTRONIC DEVICES</h2>
 
-                <p>
+                <h1 style={{ height: "40px", color: "rgb(203,108,181)" }}>
                 Lets build  TEK!
-                </p>
+                </h1>
                
-                <h2>Signature</h2>
-                <div className="signature-div">
-                  <p>Tap To Sign</p>
-                </div>
                 <button className="next-button">Submit</button>
               </form>
             </div>
