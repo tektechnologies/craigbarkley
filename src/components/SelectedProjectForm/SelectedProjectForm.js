@@ -8,7 +8,6 @@ import { faCircleExclamation } from "@fortawesome/free-solid-svg-icons";
 
 
 const SelectedProjectForm = (props) => {
-  console.log("props in form comp: ", props);
 
   const form = useForm();
   const { register, control, handleSubmit } = form;
@@ -26,7 +25,7 @@ const SelectedProjectForm = (props) => {
     >
       <Modal.Dialog>
         <Modal.Header closeButton>
-          <Modal.Title>Vistor Request Form</Modal.Title>
+          <Modal.Title>Project Request Form</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
@@ -71,12 +70,12 @@ const SelectedProjectForm = (props) => {
                     {...register("phoneNumber")}
                   />
                 </div>
-                <label htmlFor="visitForeignCountry" className="toggle">
+                <label htmlFor="projectQuestion" className="toggle">
                   Have you started another project in the last 7 days?
                   <input
                     type="checkbox"
-                    id="visitForeignCountry"
-                    {...register("visitForeignCountry")}
+                    id="projectQuestion"
+                    {...register("projectQuestion")}
                   />
                   <span className="slider position-toggle"></span>
                 </label>
@@ -89,19 +88,19 @@ const SelectedProjectForm = (props) => {
                 />
 
                 <div className="label-textarea-group">
-                  <h2>Visit Reason</h2>
+                  <h2>Project Reason</h2>
 
-                  <label htmlFor="visitReason">Reason for Visit</label>
+                  <label htmlFor="projectReason">Reason for Project</label>
                   {/* <input
                     type="textarea"
-                    id="visitReason"
-                    {...register("visitReason")}
+                    id="projectReason"
+                    {...register("projectReason")}
                   /> */}
                   <textarea
-                    htmlFor="visitReason"
+                    htmlFor="projectReason"
                     id="visitReason"
                     rows="4"
-                    {...register("visitReason")}
+                    {...register("projectReason")}
                   ></textarea>
                 </div>
                 <hr
@@ -114,29 +113,28 @@ const SelectedProjectForm = (props) => {
 
                 <div className="label-input-group">
                   <h2>Project Details</h2>
-                  <label htmlFor="toolsRequired" className="toggle">
+                  <label htmlFor="projectDetails" className="toggle">
                    Are you a business?
                     <input
                       type="checkbox"
-                      id="toolsRequired"
-                      {...register("toolsRequired")}
+                      id="projectDetails"
+                      {...register("projectDetails")}
                     />
                     <span className="slider position-toggle"></span>
                   </label>
                 </div>
 
                 <div className="label-textarea-group">
-                  <label htmlFor="visitReason">What does sucesss look like for this project?</label>
+                  <label htmlFor="projectSuccess">What does sucesss look like for this project?</label>
                   {/* <input
                 type="textarea"
-                id="toolReason"
-                {...register("toolReason")}
+                id="projectSuccessn"
+                {...register("projectSuccess")}
               /> */}
                   <textarea
-                    htmlFor="toolReason"
-                    id="toolReason"
+                    id="projectSuccess"
                     rows="4"
-                    {...register("toolReason")}
+                    {...register("projectSuccess")}
                   ></textarea>
                 </div>
 
@@ -149,14 +147,14 @@ const SelectedProjectForm = (props) => {
                 />
 
                 <div className="h2-blocklevel">
-                  <h2>Visit Details</h2>
+                  <h2>Project Specifics</h2>
                 </div>
                 <div className="label-input-group three-col">
-                  <label htmlFor="visitDate">Visit Date</label>
+                  <label htmlFor="projectDate">Project End Date</label>
                   <input
                     type="date"
-                    id="visitDate"
-                    {...register("visitDate")}
+                    id="projectDate"
+                    {...register("projectDate")}
                   />
                 </div>
 
@@ -192,10 +190,10 @@ const SelectedProjectForm = (props) => {
                     {/* <option value="DEFAULT" disabled>
                       Select User
                     </option> */}
-                    <option value="visitor">Website</option>
-                    <option value="farmer">Digital Marketing</option>
-                    <option value="usda">Online Store</option>
-                    <option value="porkypigg">Home Cameras</option>
+                    <option value="website">Website</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="online-store">Online Store</option>
+                    <option value="cameras">Home Cameras</option>
                   </select>
                 </div>
                 <hr
