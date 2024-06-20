@@ -118,4 +118,20 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
   },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/eslint/eslint-original.svg",
+    name: "eslint",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original.svg",
+    name: "Ansible",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/axios/axios-plain.svg",
+    name: "Axios",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+    name: "postgresql",
+  },
 ];
