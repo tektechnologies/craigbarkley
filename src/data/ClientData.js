@@ -135,3 +135,6 @@ export const stackList = [
     name: "postgresql",
   },
 ];
+
+
+// https://github.com/devicons/devicon
