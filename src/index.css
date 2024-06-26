@@ -155,8 +155,9 @@ video {
 }
 
 .ImageSize {
-  height: 225px;
-  width: 450px;
+  margin-top: 55px;
+  /* height: 200px;
+  width: 410px; */
 }
 
 .form-modal {

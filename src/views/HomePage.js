@@ -1,8 +1,8 @@
 import React from "react";
 import DeveloperManagerArtist from "../components/DeveloperManagerArtist/DeveloperManagerArtist";
 import ClientWork from "../components/ClientWork/ClientWork";
-import About from '../components/About/About';
-import Contact from '../components/Contact/Contact';
+import About from "../components/About/About";
+import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import SocialIcon from "../components/SocialIcon/SocialIcon";
 import ScrollToTop from "../components/SocialIcon/ScrollToTop";
@@ -33,9 +33,9 @@ class HomePage extends React.Component {
       <>
         <DeveloperManagerArtist displayForm={this.displayFormModal} />
         <ClientWork />
-       <About />
-       <Contact />
-    
+        <About />
+        <Contact />
+
         <SelectedProjectForm
           show={this.state.displayModal}
           handleClose={this.handleModalClose}
