@@ -58,7 +58,7 @@ class SocialIcon extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin />
+                <FaLinkedin  size={70}/>
               </a>
             </li>
             <li className="item">
@@ -67,7 +67,7 @@ class SocialIcon extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaGithub />
+                <FaGithub  size={70}/>
               </a>
             </li>
           </ul>
