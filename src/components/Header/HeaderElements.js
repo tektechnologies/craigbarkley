@@ -16,7 +16,7 @@ export const Nav = styled.nav`
 export const NavLink = styled(ScrollLink)`
   color: rgb(119, 119,121);
   display: flex;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   align-items: center;
   height: 100%;
   cursor: pointer;
@@ -27,8 +27,8 @@ export const NavLink = styled(ScrollLink)`
 
 export const Logo = styled('div')`
 img{
-  width: 47px;
-  height: 47px;
+  width: 75px;
+  height: 75px;
 }
 `;
 
@@ -48,7 +48,7 @@ export const NavMenu = styled.div`
   ${'' /* align-items: center; */}
   ${'' /* margin-right: -24px; */}
   .menu-item + .menu-item {
-    margin-left: 1rem;
+    margin-left: 3rem;
   }
   @media screen and (max-width: 768px){
     display: none;
@@ -56,6 +56,7 @@ export const NavMenu = styled.div`
 `;
 
 export const NavBtn = styled.div`
+ 
   ${'' /* display: flex; */}
   ${'' /* align-items: center; */}
   ${'' /* margin-right: 14px; */}

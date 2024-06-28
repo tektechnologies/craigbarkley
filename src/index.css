@@ -32,6 +32,7 @@ a {
   color: inherit;
   background-color: transparent;
   transition: 0.2s ease-in;
+  
 }
 
 ul,
@@ -85,10 +86,11 @@ video {
 }
 
 .PrimaryBtn {
-  padding: 12px 20px;
+  padding: 15px 40px;
   border: none;
   background: rgb(203,108,181) !important;
   color: whitesmoke;
+  font-size: 25px;
 
 }
 

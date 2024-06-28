@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+import { Button } from "react-scroll";
 
 class Header extends React.Component {
   render() {
@@ -34,9 +35,9 @@ class Header extends React.Component {
             </a>
           </NavBtn>
           <NavBtn>
-            <p className="btn PrimaryBtn" onClick={displayForm}>
+            <Button className="btn PrimaryBtn" onClick={displayForm} rel="noopener noreferrer">
               New Project Request
-            </p>
+            </Button>
           </NavBtn>
           <Bars onClick={toggle} />
         </Nav>
