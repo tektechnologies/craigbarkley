@@ -22,7 +22,7 @@ export const DmaContainter = styled.div`
     max-width: 960px;
   }
   @media (min-width: 1200px) {
-    max-width: 1000px;
+    max-width: 1400px;
   }
 `;
 
@@ -67,8 +67,10 @@ export const DmaLeft = styled.div`
 `;
 
 export const DmaRight =  styled.div`
-  flex: 1;
-  justify-content: center
+  ${'' /* flex: 1; */}
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: -50px;
   display: flex;
 `;
 
@@ -115,8 +117,8 @@ font-size: 1.3rem;
 color: #f6f6f6;
 
 img {
-  height: 35px;
-  width: 35px;
-  margin-left: 6px;
+  height: 100px;
+  width:100px;
+  margin-left: 60px;
 }
 `; 
