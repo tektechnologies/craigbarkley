@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-import { Button } from "react-scroll";
+//import { Button } from "react-scroll";
 
 class Header extends React.Component {
   render() {
