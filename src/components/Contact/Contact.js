@@ -43,14 +43,14 @@ function Contact() {
                   </IconButton>
                 </Tooltip>
               </div>
-              <a
+              {/* <a
                 className="btn PrimaryBtn btn-shadow"
                 href="mailto:craigwbarkley@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Send Email
-              </a>
+              </a> */}
             </Email>
           </div>
         </ScrollAnimation>
