@@ -34,11 +34,11 @@ class Header extends React.Component {
               LinkedIn
             </a>
           </NavBtn>
-          <NavBtn>
+          {/* <NavBtn>
             <Button className="btn PrimaryBtn" onClick={displayForm} rel="noopener noreferrer">
               New Project Request
             </Button>
-          </NavBtn>
+          </NavBtn> */}
           <Bars onClick={toggle} />
         </Nav>
       </div>
