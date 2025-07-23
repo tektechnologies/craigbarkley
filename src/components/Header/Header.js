@@ -5,7 +5,7 @@ import { Button } from "react-scroll";
 class Header extends React.Component {
   render() {
     // console.log('props header', this.props.displayForm);
-    const { toggle, displayForm } = this.props;
+    const { toggle } = this.props;
     return (
       <div>
         <Nav>
