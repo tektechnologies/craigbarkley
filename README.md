@@ -19,3 +19,5 @@
 ## React Hook Form and React Dev Tools
 
 ![React Form Hook](/public/form-data-log.png)
+
+![console logs](/public/consolelogs.png)
