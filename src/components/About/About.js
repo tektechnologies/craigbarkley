@@ -44,7 +44,7 @@ function About() {
             <br />
             {/* // Section 1 - Kirkwood Experience */}
             <ScrollAnimation animateIn="fadeInLeft">
-              At Kirkwood, I worked on facilities HVAC building automation and
+              At <strong>Kirkwood</strong>, I worked on facilities HVAC building automation and
               IoT devices, implementing solutions that integrated physical
               infrastructure with digital control systems to enhance operational
               efficiency and monitoring capabilities.
@@ -55,7 +55,7 @@ function About() {
 
             {/* // Section 2 - Newboco and DeltaV Experience */}
             <ScrollAnimation animateIn="fadeInLeft">
-              With Newboco and DeltaV, I managed the Entretrack Application,
+              With <strong>Newboco</strong> and <strong>DeltaV</strong>, I managed the Entretrack Application,
               DeltaV Website, and NewBoCo Website, along with several recurring
               client sites requiring ongoing maintenance, new feature
               development, and bug fixes. I also instructed Full Stack
@@ -70,8 +70,7 @@ function About() {
 
             {/* // Section 3 - CCR Database Modernization Overview */}
             <ScrollAnimation animateIn="fadeInLeft">
-              At Circle Computer Resources (CCR), I led a comprehensive database
-              modernization initiative to refactor a tightly coupled MS SQL
+              At <strong>Circle Computer Resources (CCR)</strong>, I participated in a comprehensive database modernization initiative to refactor a tightly coupled MS SQL
               database with complex, legacy business logic. I conducted
               extensive database archaeology to map dependencies across numerous
               views with inconsistent naming conventions and obsolete legacy
